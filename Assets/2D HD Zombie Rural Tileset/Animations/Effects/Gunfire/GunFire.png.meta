@@ -1,0 +1,3555 @@
+fileFormatVersion: 2
+guid: d45ff416418fde34eb28e8ffc695af48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4184198333713266514
+    second: GunFire_0
+  - first:
+      213: 7274602591221919480
+    second: GunFire_1
+  - first:
+      213: -3968230866150315028
+    second: GunFire_2
+  - first:
+      213: 739612604844435629
+    second: GunFire_3
+  - first:
+      213: -6215901838163123260
+    second: GunFire_4
+  - first:
+      213: 8167280231020886209
+    second: GunFire_5
+  - first:
+      213: -2933769946478425039
+    second: GunFire_6
+  - first:
+      213: -5980205003183218365
+    second: GunFire_7
+  - first:
+      213: 9164186172190936077
+    second: GunFire_8
+  - first:
+      213: -2094643521289834485
+    second: GunFire_9
+  - first:
+      213: 1747499495798426311
+    second: GunFire_10
+  - first:
+      213: 8606800764915168282
+    second: GunFire_11
+  - first:
+      213: 6899768409502619952
+    second: GunFire_12
+  - first:
+      213: -4726657171684573579
+    second: GunFire_13
+  - first:
+      213: 5234756245129648794
+    second: GunFire_14
+  - first:
+      213: 5706182281949366023
+    second: GunFire_15
+  - first:
+      213: 580789764273847628
+    second: GunFire_16
+  - first:
+      213: -6984487540965658781
+    second: GunFire_17
+  - first:
+      213: -4526663572237615516
+    second: GunFire_18
+  - first:
+      213: 1014344573887737167
+    second: GunFire_19
+  - first:
+      213: -37443149299716516
+    second: GunFire_20
+  - first:
+      213: 3707513394678368758
+    second: GunFire_21
+  - first:
+      213: 3494816127112391450
+    second: GunFire_22
+  - first:
+      213: 4975736263421559459
+    second: GunFire_23
+  - first:
+      213: 7220487211545702487
+    second: GunFire_24
+  - first:
+      213: -8978057294116380099
+    second: GunFire_25
+  - first:
+      213: 6062270938390599165
+    second: GunFire_26
+  - first:
+      213: 7756353864648669336
+    second: GunFire_27
+  - first:
+      213: 3441875131463908333
+    second: GunFire_28
+  - first:
+      213: -5407690759393774944
+    second: GunFire_29
+  - first:
+      213: 8737529897374959205
+    second: GunFire_30
+  - first:
+      213: 4711406054931476153
+    second: GunFire_31
+  - first:
+      213: 3724492177491105630
+    second: GunFire_32
+  - first:
+      213: -2040191388968962887
+    second: GunFire_33
+  - first:
+      213: -3251317225608016088
+    second: GunFire_34
+  - first:
+      213: 8258914463615230203
+    second: GunFire_35
+  - first:
+      213: -56392062304667986
+    second: GunFire_36
+  - first:
+      213: -2754951634558110292
+    second: GunFire_37
+  - first:
+      213: 8479733031943896190
+    second: GunFire_38
+  - first:
+      213: 3162385003346023124
+    second: GunFire_39
+  - first:
+      213: 6044085969392000076
+    second: GunFire_40
+  - first:
+      213: 2104339661222542340
+    second: GunFire_41
+  - first:
+      213: -1681044625127621425
+    second: GunFire_42
+  - first:
+      213: 1244262523123118425
+    second: GunFire_43
+  - first:
+      213: 1689977248524190002
+    second: GunFire_44
+  - first:
+      213: 1639174203408913874
+    second: GunFire_45
+  - first:
+      213: -5272312246224327367
+    second: GunFire_46
+  - first:
+      213: -9003911828835531182
+    second: GunFire_47
+  - first:
+      213: 8109877881882617829
+    second: GunFire_48
+  - first:
+      213: -459174699217191375
+    second: GunFire_49
+  - first:
+      213: 3737865505624863347
+    second: GunFire_50
+  - first:
+      213: -1957960674031807379
+    second: GunFire_51
+  - first:
+      213: 1525526458837547039
+    second: GunFire_52
+  - first:
+      213: -9179765321050358969
+    second: GunFire_53
+  - first:
+      213: 8130837486979470001
+    second: GunFire_54
+  - first:
+      213: 2083792050901474469
+    second: GunFire_55
+  - first:
+      213: -1886830520848485839
+    second: GunFire_56
+  - first:
+      213: -5173555146362483957
+    second: GunFire_57
+  - first:
+      213: 1099744663598005475
+    second: GunFire_58
+  - first:
+      213: 5342513909383847376
+    second: GunFire_59
+  - first:
+      213: 1665428878360922066
+    second: GunFire_60
+  - first:
+      213: -5130220756908478879
+    second: GunFire_61
+  - first:
+      213: 8986490233128448795
+    second: GunFire_62
+  - first:
+      213: 8721740350942767348
+    second: GunFire_63
+  - first:
+      213: 6035528689872659211
+    second: GunFire_64
+  - first:
+      213: 3351463195396730441
+    second: GunFire_65
+  - first:
+      213: -7465900342350547881
+    second: GunFire_66
+  - first:
+      213: -6572366269800674675
+    second: GunFire_67
+  - first:
+      213: -3956182346700938947
+    second: GunFire_68
+  - first:
+      213: 6194110039733630166
+    second: GunFire_69
+  - first:
+      213: 2987814545617409310
+    second: GunFire_70
+  - first:
+      213: 4823119868569782980
+    second: GunFire_71
+  - first:
+      213: 6674206366849299144
+    second: GunFire_72
+  - first:
+      213: 1148627596024243939
+    second: GunFire_73
+  - first:
+      213: -6202173637953841736
+    second: GunFire_74
+  - first:
+      213: -8268353684213060444
+    second: GunFire_75
+  - first:
+      213: -222982353464688877
+    second: GunFire_76
+  - first:
+      213: 7227235599059720967
+    second: GunFire_77
+  - first:
+      213: 859380614714583441
+    second: GunFire_78
+  - first:
+      213: 2865158779389666964
+    second: GunFire_79
+  - first:
+      213: -4597722777678601739
+    second: GunFire_80
+  - first:
+      213: -1344667028880082344
+    second: GunFire_81
+  - first:
+      213: -7875825446718673123
+    second: GunFire_82
+  - first:
+      213: -8670919277864915486
+    second: GunFire_83
+  - first:
+      213: 3009337754183485110
+    second: GunFire_84
+  - first:
+      213: 2943686353005790179
+    second: GunFire_85
+  - first:
+      213: 4513869859372186013
+    second: GunFire_86
+  - first:
+      213: 5233141341931584976
+    second: GunFire_87
+  - first:
+      213: -6367235967659741428
+    second: GunFire_88
+  - first:
+      213: 1155666892179561184
+    second: GunFire_89
+  - first:
+      213: 3829095484511964294
+    second: GunFire_90
+  - first:
+      213: -4280446735311613245
+    second: GunFire_91
+  - first:
+      213: -5662460406438615833
+    second: GunFire_92
+  - first:
+      213: -3496165106671502365
+    second: GunFire_93
+  - first:
+      213: -5645415649202205049
+    second: GunFire_94
+  - first:
+      213: 8502569234827001727
+    second: GunFire_95
+  - first:
+      213: 9220443364202067875
+    second: GunFire_96
+  - first:
+      213: 3759648802329998065
+    second: GunFire_97
+  - first:
+      213: -1206560315009504353
+    second: GunFire_98
+  - first:
+      213: 2234658590530466987
+    second: GunFire_99
+  - first:
+      213: 3531482322392531421
+    second: GunFire_100
+  - first:
+      213: 5541383300309747650
+    second: GunFire_101
+  - first:
+      213: -8244552128296342961
+    second: GunFire_102
+  - first:
+      213: -6417643104678164023
+    second: GunFire_103
+  - first:
+      213: -4808899413899167139
+    second: GunFire_104
+  - first:
+      213: -186434374713590081
+    second: GunFire_105
+  - first:
+      213: 1229672595030882586
+    second: GunFire_106
+  - first:
+      213: -8892472075557826837
+    second: GunFire_107
+  - first:
+      213: -3782729448748967862
+    second: GunFire_108
+  - first:
+      213: 7857738135131857826
+    second: GunFire_109
+  - first:
+      213: 2534967126485814935
+    second: GunFire_110
+  - first:
+      213: -3622939989033124968
+    second: GunFire_111
+  - first:
+      213: -2437434110547289035
+    second: GunFire_112
+  - first:
+      213: -4433954404401499887
+    second: GunFire_113
+  - first:
+      213: -3656266184412380984
+    second: GunFire_114
+  - first:
+      213: 3093364090815229438
+    second: GunFire_115
+  - first:
+      213: 887474893942995524
+    second: GunFire_116
+  - first:
+      213: -7113273085420092035
+    second: GunFire_117
+  - first:
+      213: 7628943951613411769
+    second: GunFire_118
+  - first:
+      213: 7913339033667339402
+    second: GunFire_119
+  - first:
+      213: 2957113971252781547
+    second: GunFire_120
+  - first:
+      213: -959789511423694573
+    second: GunFire_121
+  - first:
+      213: -287515455945006572
+    second: GunFire_122
+  - first:
+      213: 2365884630083096056
+    second: GunFire_123
+  - first:
+      213: -7845897584685651616
+    second: GunFire_124
+  - first:
+      213: -8218275741864908285
+    second: GunFire_125
+  - first:
+      213: 65695480128088225
+    second: GunFire_126
+  - first:
+      213: -7703758810171015450
+    second: GunFire_127
+  - first:
+      213: -2427171396840542402
+    second: GunFire_128
+  - first:
+      213: 6251359715674638005
+    second: GunFire_129
+  - first:
+      213: 6470054702261286135
+    second: GunFire_130
+  - first:
+      213: 4201684445227557242
+    second: GunFire_131
+  - first:
+      213: -2207242398970301030
+    second: GunFire_132
+  - first:
+      213: -1051405952748448413
+    second: GunFire_133
+  - first:
+      213: -6894700091677969955
+    second: GunFire_134
+  - first:
+      213: -4474083958662330708
+    second: GunFire_135
+  - first:
+      213: 6820612251092501085
+    second: GunFire_136
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GunFire_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 962
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea84d39c8cdbee5c0800000000000000
+      internalID: -4184198333713266514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_1
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 969
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe2be3a38494f460800000000000000
+      internalID: 7274602591221919480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 963
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebae544d030ee8c0800000000000000
+      internalID: -3968230866150315028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 963
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da86727deb1a34a00800000000000000
+      internalID: 739612604844435629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_4
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 961
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3e691263eacb9a0800000000000000
+      internalID: -6215901838163123260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_5
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 968
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8f1171912085170800000000000000
+      internalID: 8167280231020886209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_6
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 961
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ccf6707c72947d0800000000000000
+      internalID: -2933769946478425039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_7
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 963
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341204deb3b020da0800000000000000
+      internalID: -5980205003183218365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_8
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 960
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cccf805cabd2f70800000000000000
+      internalID: 9164186172190936077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_9
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 963
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b003276b0d45ee2e0800000000000000
+      internalID: -2094643521289834485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_10
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 970
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca4d34688d504810800000000000000
+      internalID: 1747499495798426311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_11
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 961
+        width: 134
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a143455e1bf717770800000000000000
+      internalID: 8606800764915168282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_12
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 960
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0399dd8dfc6e0cf50800000000000000
+      internalID: 6899768409502619952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_13
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 969
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e30b2685a876eb0800000000000000
+      internalID: -4726657171684573579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_14
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 961
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ad5bce11795a840800000000000000
+      internalID: 5234756245129648794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_15
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 965
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70748338d8e603f40800000000000000
+      internalID: 5706182281949366023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_16
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 960
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4db9b4a6316f0800800000000000000
+      internalID: 580789764273847628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_17
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 963
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fa99e369d121f90800000000000000
+      internalID: -6984487540965658781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_18
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 961
+        width: 128
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e731fd67f0e21c0800000000000000
+      internalID: -4526663572237615516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_19
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 963
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d6c66040da31e00800000000000000
+      internalID: 1014344573887737167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_20
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 962
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ee7b277a9fa7ff0800000000000000
+      internalID: -37443149299716516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_21
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 962
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f98ec90acbb37330800000000000000
+      internalID: 3707513394678368758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_22
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 963
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b27d350c4108030800000000000000
+      internalID: 3494816127112391450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 816
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2854dd4cd5d0540800000000000000
+      internalID: 4975736263421559459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 819
+        width: 145
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750be65fcd2543460800000000000000
+      internalID: 7220487211545702487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_25
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 816
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32a6137578876380800000000000000
+      internalID: -8978057294116380099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_26
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 815
+        width: 144
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df512f69c43812450800000000000000
+      internalID: 6062270938390599165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_27
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 813
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898bc96beba14ab60800000000000000
+      internalID: 7756353864648669336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_28
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 817
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb382c323ff3cf20800000000000000
+      internalID: 3441875131463908333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_29
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 818
+        width: 136
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2fb2fc7e504f4b0800000000000000
+      internalID: -5407690759393774944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_30
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 812
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566c363f521f14970800000000000000
+      internalID: 8737529897374959205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_31
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 817
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bea0d848d6426140800000000000000
+      internalID: 4711406054931476153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_32
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 818
+        width: 132
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e571418f6ed00b330800000000000000
+      internalID: 3724492177491105630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_33
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 812
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4b1babdb8cfa3e0800000000000000
+      internalID: -2040191388968962887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_34
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 819
+        width: 140
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f8683a53001e2d0800000000000000
+      internalID: -3251317225608016088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_35
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 679
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf02f1272fe8d9270800000000000000
+      internalID: 8258914463615230203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_36
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 688
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6bd26d7b7a73ff0800000000000000
+      internalID: -56392062304667986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_37
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 686
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca538c0b51274c9d0800000000000000
+      internalID: -2754951634558110292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_38
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 690
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c7927d3401ea570800000000000000
+      internalID: 8479733031943896190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_39
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 689
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2567fc76c03eb20800000000000000
+      internalID: 3162385003346023124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_40
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 680
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c588d8a28e0e350800000000000000
+      internalID: 6044085969392000076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_41
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 573
+        width: 143
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c7fe9c5cd143d10800000000000000
+      internalID: 2104339661222542340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_42
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 676
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc30bbe1dabba8e0800000000000000
+      internalID: -1681044625127621425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_43
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 684
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951b5122c22844110800000000000000
+      internalID: 1244262523123118425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_44
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 571
+        width: 134
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231c6c88a51047710800000000000000
+      internalID: 1689977248524190002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_45
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 674
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d51c27d0448fb610800000000000000
+      internalID: 1639174203408913874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_46
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 683
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d6bda22fbf4d6b0800000000000000
+      internalID: -5272312246224327367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_47
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 571
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256025d75edab0380800000000000000
+      internalID: -9003911828835531182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_48
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 674
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7296137f21c8070800000000000000
+      internalID: 8109877881882617829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_49
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 688
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eff4b3b0fa0a9f0800000000000000
+      internalID: -459174699217191375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_50
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 216
+        width: 143
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372b4f09fd09fd330800000000000000
+      internalID: 3737865505624863347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_51
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 564
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d645624042de3d4e0800000000000000
+      internalID: -1957960674031807379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_52
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 571
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18b8725b32cb2510800000000000000
+      internalID: 1525526458837547039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_53
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 578
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bf755b31cea9080800000000000000
+      internalID: -9179765321050358969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_54
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 569
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b257d98d9986d070800000000000000
+      internalID: 8130837486979470001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_55
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 563
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acd3c374dd1bec10800000000000000
+      internalID: 2083792050901474469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_56
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 562
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 132f57d53a1a0d5e0800000000000000
+      internalID: -1886830520848485839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_57
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 561
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b8b2b4107d338b0800000000000000
+      internalID: -5173555146362483957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_58
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 565
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecf361e1f3134f00800000000000000
+      internalID: 1099744663598005475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_59
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 560
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd5860481c642a40800000000000000
+      internalID: 5342513909383847376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_60
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 564
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d74165bdbacc1710800000000000000
+      internalID: 1665428878360922066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_61
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 560
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e6225176bcdc8b0800000000000000
+      internalID: -5130220756908478879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_62
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 571
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13732b214d66bc70800000000000000
+      internalID: 8986490233128448795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_63
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 578
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f86221b3a8d90970800000000000000
+      internalID: 8721740350942767348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_64
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 567
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03e987ad5182c350800000000000000
+      internalID: 6035528689872659211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_65
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 566
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94eea67f40ac28e20800000000000000
+      internalID: 3351463195396730441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_66
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 457
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7547ab5d13bc36890800000000000000
+      internalID: -7465900342350547881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_67
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 457
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a85c213b34ac4a0800000000000000
+      internalID: -6572366269800674675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_68
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 464
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31283ecd11d819c0800000000000000
+      internalID: -3956182346700938947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_69
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 458
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4f00a6346e5f550800000000000000
+      internalID: 6194110039733630166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_70
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 458
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e155546cf79d67920800000000000000
+      internalID: 2987814545617409310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_71
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 458
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca0b3b67f92fe240800000000000000
+      internalID: 4823119868569782980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_72
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 456
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2f3b5445b8f9c50800000000000000
+      internalID: 6674206366849299144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_73
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 455
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e66c3086beb0ff00800000000000000
+      internalID: 1148627596024243939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_74
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 463
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b51872dfe37de9a0800000000000000
+      internalID: -6202173637953841736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_75
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 458
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac203fb128e04d80800000000000000
+      internalID: -8268353684213060444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_76
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 464
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f7e8e1bbec7ecf0800000000000000
+      internalID: -222982353464688877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_77
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 456
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b130e5c7c4c4460800000000000000
+      internalID: 7227235599059720967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_78
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 455
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1996beaad122deb00800000000000000
+      internalID: 859380614714583441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_79
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 458
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496ec96cab613c720800000000000000
+      internalID: 2865158779389666964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_80
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 455
+        width: 134
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1aeb45e7b9130c0800000000000000
+      internalID: -4597722777678601739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_81
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 455
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a3c6a2678c65de0800000000000000
+      internalID: -1344667028880082344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_82
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 458
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fe95feb7273b290800000000000000
+      internalID: -7875825446718673123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_83
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 463
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed66c67bd4baa780800000000000000
+      internalID: -8670919277864915486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_84
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 455
+        width: 134
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b647474eb053c920800000000000000
+      internalID: 3009337754183485110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_85
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 455
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3431944231ad820800000000000000
+      internalID: 2943686353005790179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_86
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 457
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99b83ab8bc74ae30800000000000000
+      internalID: 4513869859372186013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_87
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 457
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd3e39f25adf9840800000000000000
+      internalID: 5233141341931584976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_88
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 345
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fec8a5f9803a7a0800000000000000
+      internalID: -6367235967659741428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_89
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 221
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eada0b5ae0c90010800000000000000
+      internalID: 1155666892179561184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_90
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 345
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c43654e0ea32530800000000000000
+      internalID: 3829095484511964294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_91
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 339
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c255cd7f5cc894c0800000000000000
+      internalID: -4280446735311613245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_92
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 223
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e42387e246ea61b0800000000000000
+      internalID: -5662460406438615833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_93
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 216
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebbab4eb502b7fc0800000000000000
+      internalID: -3496165106671502365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_94
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 216
+        width: 38
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e0fd3b06477a1b0800000000000000
+      internalID: -5645415649202205049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_95
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 344
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f3708aba13ff570800000000000000
+      internalID: 8502569234827001727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_96
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 220
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a73fd2436895ff70800000000000000
+      internalID: 9220443364202067875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_97
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 344
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f23a1f8aa4fc2430800000000000000
+      internalID: 3759648802329998065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_98
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 339
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b66cf39cf614fe0800000000000000
+      internalID: -1206560315009504353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_99
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 211
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4f7daf52a130f10800000000000000
+      internalID: 2234658590530466987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_100
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 216
+        width: 135
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd147cc2678520130800000000000000
+      internalID: 3531482322392531421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_101
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 220
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c78e3b80c2f6ec40800000000000000
+      internalID: 5541383300309747650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_102
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 344
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4aa4b45587759d80800000000000000
+      internalID: -8244552128296342961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_103
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 339
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c94c623993ffe6a0800000000000000
+      internalID: -6417643104678164023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_104
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 223
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ab4f1367b534db0800000000000000
+      internalID: -4808899413899167139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_105
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 213
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe36498ce6a96df0800000000000000
+      internalID: -186434374713590081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_106
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 217
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1939d8c5bca01110800000000000000
+      internalID: 1229672595030882586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_107
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 215
+        width: 137
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee8b49f2c7979480800000000000000
+      internalID: -8892472075557826837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_108
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 220
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4898edab9b018bc0800000000000000
+      internalID: -3782729448748967862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_109
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 339
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3239aa33b4c0d60800000000000000
+      internalID: 7857738135131857826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_110
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 223
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eca73bb230e2320800000000000000
+      internalID: 2534967126485814935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_111
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 215
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b7f1f664bb8bdc0800000000000000
+      internalID: -3622939989033124968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_112
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 216
+        width: 138
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c986d279e7c2ed0800000000000000
+      internalID: -2437434110547289035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_113
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 220
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111be5716fd6772c0800000000000000
+      internalID: -4433954404401499887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_114
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 344
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0c3d9e645524dc0800000000000000
+      internalID: -3656266184412380984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_115
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 341
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdadf15046ddea20800000000000000
+      internalID: 3093364090815229438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_116
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 223
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44abc88c6b1f05c00800000000000000
+      internalID: 887474893942995524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_117
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 216
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75403901d3984d90800000000000000
+      internalID: -7113273085420092035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_118
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 84
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b14847aa147fd960800000000000000
+      internalID: 7628943951613411769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_119
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 84
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8489f8ace3d1dd60800000000000000
+      internalID: 7913339033667339402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_120
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1edd84d77c90920800000000000000
+      internalID: 2957113971252781547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_121
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 85
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319e17846842ea2f0800000000000000
+      internalID: -959789511423694573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_122
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 80
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412a6f4573a820cf0800000000000000
+      internalID: -287515455945006572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_123
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 83
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdc8ab398f45d020800000000000000
+      internalID: 2365884630083096056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_124
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 79
+        width: 140
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06967b057b5cd1390800000000000000
+      internalID: -7845897584685651616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_125
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aaeeb41c1d2fd80800000000000000
+      internalID: -8218275741864908285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_126
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 83
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8226ce0b569e000800000000000000
+      internalID: 65695480128088225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_127
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 79
+        width: 143
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee787cad20c61590800000000000000
+      internalID: -7703758810171015450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_128
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 78
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fa45a6974f05ed0800000000000000
+      internalID: -2427171396840542402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_129
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 82
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b649ff4a8a41c650800000000000000
+      internalID: 6251359715674638005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_130
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 83
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f431adc8704ac950800000000000000
+      internalID: 6470054702261286135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_131
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71a210ddb16f4a30800000000000000
+      internalID: 4201684445227557242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_132
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 80
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a95b13c8bbc4e51e0800000000000000
+      internalID: -2207242398970301030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_133
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 82
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36592b74bd7a861f0800000000000000
+      internalID: -1051405952748448413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_134
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 85
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd17eaadbca1150a0800000000000000
+      internalID: -6894700091677969955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_135
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 80
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca688a4285cd8e1c0800000000000000
+      internalID: -4474083958662330708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunFire_136
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 80
+        width: 127
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52cb0984bea7ae50800000000000000
+      internalID: 6820612251092501085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 74acbbbacfa13ca4995a9677c994d5b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2847871211674532987
+    second: Blood1_Shadowless_0
+  - first:
+      213: 8277816549504195930
+    second: Blood1_Shadowless_1
+  - first:
+      213: 4693127102971828471
+    second: Blood1_Shadowless_2
+  - first:
+      213: -1544321365098297022
+    second: Blood1_Shadowless_3
+  - first:
+      213: -7204015088787662681
+    second: Blood1_Shadowless_4
+  - first:
+      213: 279771895200649941
+    second: Blood1_Shadowless_5
+  - first:
+      213: 6432230117169875079
+    second: Blood1_Shadowless_6
+  - first:
+      213: -3502699069547624022
+    second: Blood1_Shadowless_7
+  - first:
+      213: 6188632340677715018
+    second: Blood1_Shadowless_8
+  - first:
+      213: -4350403250787950556
+    second: Blood1_Shadowless_9
+  - first:
+      213: -3005696468239845732
+    second: Blood1_Shadowless_10
+  - first:
+      213: -131719311342373330
+    second: Blood1_Shadowless_11
+  - first:
+      213: 1999187212299635935
+    second: Blood1_Shadowless_12
+  - first:
+      213: -8393111733723056392
+    second: Blood1_Shadowless_13
+  - first:
+      213: 2096506888001250449
+    second: Blood1_Shadowless_14
+  - first:
+      213: -8072931676890466382
+    second: Blood1_Shadowless_15
+  - first:
+      213: 2000122489404242559
+    second: Blood1_Shadowless_16
+  - first:
+      213: 1199156352596813919
+    second: Blood1_Shadowless_17
+  - first:
+      213: -5862623614202784783
+    second: Blood1_Shadowless_18
+  - first:
+      213: 3215249157307814030
+    second: Blood1_Shadowless_19
+  - first:
+      213: 3267598173879523613
+    second: Blood1_Shadowless_20
+  - first:
+      213: 4806437692158483924
+    second: Blood1_Shadowless_21
+  - first:
+      213: -6299956313470472713
+    second: Blood1_Shadowless_22
+  - first:
+      213: -690652700757145248
+    second: Blood1_Shadowless_23
+  - first:
+      213: 7022109579554264939
+    second: Blood1_Shadowless_24
+  - first:
+      213: -5348841328836706932
+    second: Blood1_Shadowless_25
+  - first:
+      213: -6215606604988717143
+    second: Blood1_Shadowless_26
+  - first:
+      213: 1264535074539196812
+    second: Blood1_Shadowless_27
+  - first:
+      213: -8072796261023729418
+    second: Blood1_Shadowless_28
+  - first:
+      213: 7336699410355024141
+    second: Blood1_Shadowless_29
+  - first:
+      213: -7343872636685574696
+    second: Blood1_Shadowless_30
+  - first:
+      213: -1078954890991875145
+    second: Blood1_Shadowless_31
+  - first:
+      213: -2880354358202020731
+    second: Blood1_Shadowless_32
+  - first:
+      213: 1309112713640898970
+    second: Blood1_Shadowless_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blood1_Shadowless_0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 70
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cfbe147cba58720800000000000000
+      internalID: 2847871211674532987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 74
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d1c054b46b0e270800000000000000
+      internalID: 8277816549504195930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 75
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8d4622c36512140800000000000000
+      internalID: 4693127102971828471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_3
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 84
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249054e86e7719ae0800000000000000
+      internalID: -1544321365098297022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 74
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8d14cf172360c90800000000000000
+      internalID: -7204015088787662681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_5
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 84
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2929f6e03f1e300800000000000000
+      internalID: 279771895200649941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_6
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 71
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788ca7f463fd34950800000000000000
+      internalID: 6432230117169875079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_7
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 66
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9c58c11c9e36fc0800000000000000
+      internalID: -3502699069547624022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_8
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 61
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44e697335072e550800000000000000
+      internalID: 6188632340677715018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 45
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4206417fa4340a3c0800000000000000
+      internalID: -4350403250787950556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_10
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 36
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96faebacfe9946d0800000000000000
+      internalID: -3005696468239845732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_11
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 48
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26f065fbf90c2ef0800000000000000
+      internalID: -131719311342373330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_12
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 59
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc8f9c6d2a8ebb10800000000000000
+      internalID: 1999187212299635935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_13
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 60
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f63647c85da58b80800000000000000
+      internalID: -8393111733723056392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_14
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 59
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194697828e9481d10800000000000000
+      internalID: 2096506888001250449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 63
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7f1fe796f27ff80800000000000000
+      internalID: -8072931676890466382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_16
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 55
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ab5389eccd1cb10800000000000000
+      internalID: 2000122489404242559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_17
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 29
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58afaa695244a010800000000000000
+      internalID: 1199156352596813919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_18
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 50
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f350a762e6c3aea0800000000000000
+      internalID: -5862623614202784783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_19
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 33
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80d4bdc21cde9c20800000000000000
+      internalID: 3215249157307814030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_20
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 32
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19ddc60a37d85d20800000000000000
+      internalID: 3267598173879523613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_21
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd972c8d95e3b240800000000000000
+      internalID: 4806437692158483924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_22
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 49
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdec1b8c1f0298a0800000000000000
+      internalID: -6299956313470472713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_23
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 56
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069c434270f4a66f0800000000000000
+      internalID: -690652700757145248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_24
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 37
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b671337357b837160800000000000000
+      internalID: 7022109579554264939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_25
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 25
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d72ca962915c5b0800000000000000
+      internalID: -5348841328836706932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_26
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 37
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7631679babdb9a0800000000000000
+      internalID: -6215606604988717143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_27
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 33
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c815ee353f78c8110800000000000000
+      internalID: 1264535074539196812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_28
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 30
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f83495729aa7ff80800000000000000
+      internalID: -8072796261023729418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_29
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 28
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0177020e3131d560800000000000000
+      internalID: 7336699410355024141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_30
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 38
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd15a61fb2551a90800000000000000
+      internalID: -7343872636685574696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_31
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 26
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb42c14e38c601f0800000000000000
+      internalID: -1078954890991875145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_32
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 17
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cce14d8fce608d0800000000000000
+      internalID: -2880354358202020731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood1_Shadowless_33
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 9
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91738bb317ea2210800000000000000
+      internalID: 1309112713640898970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

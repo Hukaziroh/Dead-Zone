@@ -1,0 +1,2080 @@
+fileFormatVersion: 2
+guid: 2d2d81c7912620c449f00d0ffd13fa5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3490359908659285803
+    second: Acid4_Shadowless_0
+  - first:
+      213: 7948071451541013859
+    second: Acid4_Shadowless_1
+  - first:
+      213: 610730634611627641
+    second: Acid4_Shadowless_2
+  - first:
+      213: 634309911193958181
+    second: Acid4_Shadowless_3
+  - first:
+      213: 459465835181542297
+    second: Acid4_Shadowless_4
+  - first:
+      213: -3922925046725435368
+    second: Acid4_Shadowless_5
+  - first:
+      213: 4852539727217707566
+    second: Acid4_Shadowless_6
+  - first:
+      213: 3185396958878207538
+    second: Acid4_Shadowless_7
+  - first:
+      213: -6934183606329525560
+    second: Acid4_Shadowless_8
+  - first:
+      213: 742503344183645165
+    second: Acid4_Shadowless_9
+  - first:
+      213: 1206380308126065448
+    second: Acid4_Shadowless_10
+  - first:
+      213: -4917847243694382450
+    second: Acid4_Shadowless_11
+  - first:
+      213: -1875154127014007797
+    second: Acid4_Shadowless_12
+  - first:
+      213: -6493491809515826555
+    second: Acid4_Shadowless_13
+  - first:
+      213: 436213634138057751
+    second: Acid4_Shadowless_14
+  - first:
+      213: 8369669071771867726
+    second: Acid4_Shadowless_15
+  - first:
+      213: 3378239344151216988
+    second: Acid4_Shadowless_16
+  - first:
+      213: 8187477396110885457
+    second: Acid4_Shadowless_17
+  - first:
+      213: 6011110898091483854
+    second: Acid4_Shadowless_18
+  - first:
+      213: 7582670058047647385
+    second: Acid4_Shadowless_19
+  - first:
+      213: -296549339840884296
+    second: Acid4_Shadowless_20
+  - first:
+      213: 8247843626328003679
+    second: Acid4_Shadowless_21
+  - first:
+      213: 7481130135585277820
+    second: Acid4_Shadowless_22
+  - first:
+      213: 5553473651255819364
+    second: Acid4_Shadowless_23
+  - first:
+      213: 8247164756239583905
+    second: Acid4_Shadowless_24
+  - first:
+      213: 1699043502196361101
+    second: Acid4_Shadowless_25
+  - first:
+      213: -6827762139150259358
+    second: Acid4_Shadowless_26
+  - first:
+      213: 8653543301316049377
+    second: Acid4_Shadowless_27
+  - first:
+      213: -1697366668742223085
+    second: Acid4_Shadowless_28
+  - first:
+      213: -5430195853498000640
+    second: Acid4_Shadowless_29
+  - first:
+      213: -6217128152170576134
+    second: Acid4_Shadowless_30
+  - first:
+      213: 3980930423841798823
+    second: Acid4_Shadowless_31
+  - first:
+      213: -7616083740705683309
+    second: Acid4_Shadowless_32
+  - first:
+      213: 5642978101787333832
+    second: Acid4_Shadowless_33
+  - first:
+      213: 8056690505253534544
+    second: Acid4_Shadowless_34
+  - first:
+      213: -1559666924605657453
+    second: Acid4_Shadowless_35
+  - first:
+      213: -8002614169316686823
+    second: Acid4_Shadowless_36
+  - first:
+      213: 3041998971311104772
+    second: Acid4_Shadowless_37
+  - first:
+      213: -254753747913087431
+    second: Acid4_Shadowless_38
+  - first:
+      213: -8937899435325684004
+    second: Acid4_Shadowless_39
+  - first:
+      213: 4457708210025937575
+    second: Acid4_Shadowless_40
+  - first:
+      213: 694390263599064045
+    second: Acid4_Shadowless_41
+  - first:
+      213: 5020160337388016954
+    second: Acid4_Shadowless_42
+  - first:
+      213: 4133705350100196183
+    second: Acid4_Shadowless_43
+  - first:
+      213: -2833767873749538294
+    second: Acid4_Shadowless_44
+  - first:
+      213: 7381468174992832788
+    second: Acid4_Shadowless_45
+  - first:
+      213: -9029980528927532239
+    second: Acid4_Shadowless_46
+  - first:
+      213: -3762804066398744426
+    second: Acid4_Shadowless_47
+  - first:
+      213: 864538229213007174
+    second: Acid4_Shadowless_48
+  - first:
+      213: 5790166028403413915
+    second: Acid4_Shadowless_49
+  - first:
+      213: -3138404763454811243
+    second: Acid4_Shadowless_50
+  - first:
+      213: 2579137252928176272
+    second: Acid4_Shadowless_51
+  - first:
+      213: -7752961933501258841
+    second: Acid4_Shadowless_52
+  - first:
+      213: -886943655893805123
+    second: Acid4_Shadowless_53
+  - first:
+      213: -4747526257588841449
+    second: Acid4_Shadowless_54
+  - first:
+      213: 8957017421356759895
+    second: Acid4_Shadowless_55
+  - first:
+      213: -6052465839854119463
+    second: Acid4_Shadowless_56
+  - first:
+      213: 6501151563486021387
+    second: Acid4_Shadowless_57
+  - first:
+      213: -3079023896328617174
+    second: Acid4_Shadowless_58
+  - first:
+      213: -68485970434441084
+    second: Acid4_Shadowless_59
+  - first:
+      213: -5750192331809852693
+    second: Acid4_Shadowless_60
+  - first:
+      213: -7358762411592420517
+    second: Acid4_Shadowless_61
+  - first:
+      213: -4073618417892217273
+    second: Acid4_Shadowless_62
+  - first:
+      213: 1545865169043320069
+    second: Acid4_Shadowless_63
+  - first:
+      213: -1370023004039968611
+    second: Acid4_Shadowless_64
+  - first:
+      213: 8302703026066148832
+    second: Acid4_Shadowless_65
+  - first:
+      213: 6411262757097318330
+    second: Acid4_Shadowless_66
+  - first:
+      213: -1721874143427065979
+    second: Acid4_Shadowless_67
+  - first:
+      213: -3532131729895629053
+    second: Acid4_Shadowless_68
+  - first:
+      213: 8943940001855400018
+    second: Acid4_Shadowless_69
+  - first:
+      213: -2616041902056341866
+    second: Acid4_Shadowless_70
+  - first:
+      213: 4385752409806888377
+    second: Acid4_Shadowless_71
+  - first:
+      213: -192049520976854053
+    second: Acid4_Shadowless_72
+  - first:
+      213: -6257992545439813731
+    second: Acid4_Shadowless_73
+  - first:
+      213: -6202854831473740295
+    second: Acid4_Shadowless_74
+  - first:
+      213: -4032083393293939386
+    second: Acid4_Shadowless_75
+  - first:
+      213: 5444598944243963399
+    second: Acid4_Shadowless_76
+  - first:
+      213: 4997190883058927293
+    second: Acid4_Shadowless_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Acid4_Shadowless_0
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 70
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fc6ed18df307030800000000000000
+      internalID: 3490359908659285803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 69
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365868edfd83d4e60800000000000000
+      internalID: 7948071451541013859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_2
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 65
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9769971c640c97800800000000000000
+      internalID: 610730634611627641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 59
+        width: 57
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527b936e0858dc800800000000000000
+      internalID: 634309911193958181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_4
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 52
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b8c642eb9506600800000000000000
+      internalID: 459465835181542297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 45
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810a27d5478fe89c0800000000000000
+      internalID: -3922925046725435368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_6
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 91
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a484b0c2fa75340800000000000000
+      internalID: 4852539727217707566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 38
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e8b8a38adc43c20800000000000000
+      internalID: 3185396958878207538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_8
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 68
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca3469bfb4d4cf90800000000000000
+      internalID: -6934183606329525560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_9
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 80
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de31b9a8bd6ed4a00800000000000000
+      internalID: 742503344183645165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_10
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 61
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82361e1af7cedb010800000000000000
+      internalID: 1206380308126065448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_11
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 86
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8266fbdcfb40cbb0800000000000000
+      internalID: -4917847243694382450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_12
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 68
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ce838a14d1af5e0800000000000000
+      internalID: -1875154127014007797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_13
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 28
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58296ed6a9b72e5a0800000000000000
+      internalID: -6493491809515826555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_14
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 13
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c2bf43dfdbd0600800000000000000
+      internalID: 436213634138057751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_15
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 20
+        width: 55
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a19862da9072470800000000000000
+      internalID: 8369669071771867726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_16
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 49
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53c16ae8cae1ee20800000000000000
+      internalID: 3378239344151216988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 78
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152cab90053cf9170800000000000000
+      internalID: 8187477396110885457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 70
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2e83a7381cb6350800000000000000
+      internalID: 6011110898091483854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_19
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 79
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eabea3e3e0b3960800000000000000
+      internalID: 7582670058047647385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_20
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 29
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1586452f172ebf0800000000000000
+      internalID: -296549339840884296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_21
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 66
+        width: 44
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f541046441a367270800000000000000
+      internalID: 8247843626328003679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_22
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 64
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77c70ab83052d760800000000000000
+      internalID: 7481130135585277820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_23
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 81
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c389cbcd6e11d40800000000000000
+      internalID: 5553473651255819364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_24
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 73
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa08c386a0d37270800000000000000
+      internalID: 8247164756239583905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_25
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 60
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8789563017349710800000000000000
+      internalID: 1699043502196361101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_26
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 84
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b661d628aee31a0800000000000000
+      internalID: -6827762139150259358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_27
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 64
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9776bb8cf871870800000000000000
+      internalID: 8653543301316049377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_28
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 59
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b1800020eb178e0800000000000000
+      internalID: -1697366668742223085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_29
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 62
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bd37344a114a4b0800000000000000
+      internalID: -5430195853498000640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_30
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 37
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6cac6a2e258b9a0800000000000000
+      internalID: -6217128152170576134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_31
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 68
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aab2ace02b1f3730800000000000000
+      internalID: 3980930423841798823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_32
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 63
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3980c97803c3e4690800000000000000
+      internalID: -7616083740705683309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_33
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 25
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c497509fa2ef4e40800000000000000
+      internalID: 5642978101787333832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_34
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 44
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b36ee045d1fcf60800000000000000
+      internalID: 8056690505253534544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_35
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 57
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e24fe0233fa5ae0800000000000000
+      internalID: -1559666924605657453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_36
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 49
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9140f5b00d001f090800000000000000
+      internalID: -8002614169316686823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_37
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 48
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4032a1c72f9573a20800000000000000
+      internalID: 3041998971311104772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_38
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 53
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936e076e0dee67cf0800000000000000
+      internalID: -254753747913087431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_39
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 49
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd68f3f81d336f380800000000000000
+      internalID: -8937899435325684004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_40
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 46
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa30f2cff5fcdd30800000000000000
+      internalID: 4457708210025937575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_41
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 55
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3ef450448f2a900800000000000000
+      internalID: 694390263599064045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_42
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 48
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3594899a313ba540800000000000000
+      internalID: 5020160337388016954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_43
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 24
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b9ad65d1fdd5930800000000000000
+      internalID: 4133705350100196183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_44
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 38
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0aae3df12f6ca8d0800000000000000
+      internalID: -2833767873749538294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_45
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 53
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4197c4b423e307660800000000000000
+      internalID: 7381468174992832788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_46
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 7
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b94944d801fa280800000000000000
+      internalID: -9029980528927532239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_47
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 60
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69058e643a5d7cbc0800000000000000
+      internalID: -3762804066398744426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_48
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 35
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d8cfe50f47ffb00800000000000000
+      internalID: 864538229213007174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_49
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 6
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b931581435dca5050800000000000000
+      internalID: 5790166028403413915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_50
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 39
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593d1e0ee752274d0800000000000000
+      internalID: -3138404763454811243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_51
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 50
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 090c2cbaaafeac320800000000000000
+      internalID: 2579137252928176272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_52
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 32
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3288cc232f76490800000000000000
+      internalID: -7752961933501258841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_53
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 35
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7d9a6b171f0b3f0800000000000000
+      internalID: -886943655893805123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_54
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 43
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714d39ea5066d1eb0800000000000000
+      internalID: -4747526257588841449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_55
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 42
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b74fe63e7bd4c70800000000000000
+      internalID: 8957017421356759895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_56
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d51f40d262510ca0800000000000000
+      internalID: -6052465839854119463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_57
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 1
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b074f8407eab83a50800000000000000
+      internalID: 6501151563486021387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_58
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 47
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a23c464641c1545d0800000000000000
+      internalID: -3079023896328617174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_59
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 32
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480482c6f50bc0ff0800000000000000
+      internalID: -68485970434441084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_60
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 22
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be27c404a863330b0800000000000000
+      internalID: -5750192331809852693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_61
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 42
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b537986339c60e990800000000000000
+      internalID: -7358762411592420517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_62
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 29
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74eab03c1a99777c0800000000000000
+      internalID: -4073618417892217273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_63
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 35
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50de97f4e24047510800000000000000
+      internalID: 1545865169043320069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_64
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 35
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9885162653bcfce0800000000000000
+      internalID: -1370023004039968611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_65
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 40
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edcb30a960293370800000000000000
+      internalID: 8302703026066148832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_66
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 38
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab72a7e528169f850800000000000000
+      internalID: 6411262757097318330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_67
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 23
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5878915e69caa18e0800000000000000
+      internalID: -1721874143427065979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_68
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 31
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30f5fabd7e85bfec0800000000000000
+      internalID: -3532131729895629053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_69
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 28
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2586ffe6b024f1c70800000000000000
+      internalID: 8943940001855400018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_70
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 26
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ef46e10c3f1bbd0800000000000000
+      internalID: -2616041902056341866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_71
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 29
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd5a5b74925ddc30800000000000000
+      internalID: 4385752409806888377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_72
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 16
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd304ea6af3b55df0800000000000000
+      internalID: -192049520976854053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_73
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 15
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f640aafe42729a0800000000000000
+      internalID: -6257992545439813731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_74
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 15
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f531b815680be9a0800000000000000
+      internalID: -6202854831473740295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_75
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 10
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d86f544892b08c0800000000000000
+      internalID: -4032083393293939386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_76
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 19
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706d020a4e91f8b40800000000000000
+      internalID: 5444598944243963399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Acid4_Shadowless_77
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 18
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db64c83c1a6995540800000000000000
+      internalID: 4997190883058927293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

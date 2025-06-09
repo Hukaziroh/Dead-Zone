@@ -1,0 +1,3130 @@
+fileFormatVersion: 2
+guid: 112cf55afe7ec744caa11e7265de51d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4096133483628350209
+    second: Attack4_Shadowless_0
+  - first:
+      213: 1214109786031490819
+    second: Attack4_Shadowless_1
+  - first:
+      213: -1952351715291693427
+    second: Attack4_Shadowless_2
+  - first:
+      213: 6452353785559232047
+    second: Attack4_Shadowless_3
+  - first:
+      213: -5652926915923974363
+    second: Attack4_Shadowless_4
+  - first:
+      213: -2899086870169814498
+    second: Attack4_Shadowless_5
+  - first:
+      213: -6254934603521942579
+    second: Attack4_Shadowless_6
+  - first:
+      213: 7122021804529084755
+    second: Attack4_Shadowless_7
+  - first:
+      213: -7622572823216880221
+    second: Attack4_Shadowless_8
+  - first:
+      213: -9151949416202636086
+    second: Attack4_Shadowless_9
+  - first:
+      213: 8492163142101923030
+    second: Attack4_Shadowless_10
+  - first:
+      213: -6269278982063946409
+    second: Attack4_Shadowless_11
+  - first:
+      213: 8229344222901035842
+    second: Attack4_Shadowless_12
+  - first:
+      213: -8033986408256862626
+    second: Attack4_Shadowless_13
+  - first:
+      213: -967534362505321565
+    second: Attack4_Shadowless_14
+  - first:
+      213: 5448793882798249644
+    second: Attack4_Shadowless_15
+  - first:
+      213: -5848702785953152050
+    second: Attack4_Shadowless_16
+  - first:
+      213: -2242400785256418180
+    second: Attack4_Shadowless_17
+  - first:
+      213: 7656829586304635598
+    second: Attack4_Shadowless_18
+  - first:
+      213: -8130780254854352150
+    second: Attack4_Shadowless_19
+  - first:
+      213: -7507962565439879731
+    second: Attack4_Shadowless_20
+  - first:
+      213: -6124117845072235879
+    second: Attack4_Shadowless_21
+  - first:
+      213: 165795623757111794
+    second: Attack4_Shadowless_22
+  - first:
+      213: -6059360183345555035
+    second: Attack4_Shadowless_23
+  - first:
+      213: -7672886746692098442
+    second: Attack4_Shadowless_24
+  - first:
+      213: -5510964685763596915
+    second: Attack4_Shadowless_25
+  - first:
+      213: 8445269788991199982
+    second: Attack4_Shadowless_26
+  - first:
+      213: 449389846566988085
+    second: Attack4_Shadowless_27
+  - first:
+      213: 4034606767889195511
+    second: Attack4_Shadowless_28
+  - first:
+      213: -474814662668989317
+    second: Attack4_Shadowless_29
+  - first:
+      213: 7667647136206121939
+    second: Attack4_Shadowless_30
+  - first:
+      213: -6202997780301214824
+    second: Attack4_Shadowless_31
+  - first:
+      213: -1677660410489874105
+    second: Attack4_Shadowless_32
+  - first:
+      213: -291865179737061460
+    second: Attack4_Shadowless_33
+  - first:
+      213: 3785305274531146959
+    second: Attack4_Shadowless_34
+  - first:
+      213: -2033311593446329737
+    second: Attack4_Shadowless_35
+  - first:
+      213: -5868137402471024861
+    second: Attack4_Shadowless_36
+  - first:
+      213: -4011273423335807196
+    second: Attack4_Shadowless_37
+  - first:
+      213: -2430761970248229838
+    second: Attack4_Shadowless_38
+  - first:
+      213: -7995414949167596724
+    second: Attack4_Shadowless_39
+  - first:
+      213: -1672629645179516134
+    second: Attack4_Shadowless_40
+  - first:
+      213: -852093161241106535
+    second: Attack4_Shadowless_41
+  - first:
+      213: -8237825606412580642
+    second: Attack4_Shadowless_42
+  - first:
+      213: 4686355488551472891
+    second: Attack4_Shadowless_43
+  - first:
+      213: -728167710499416690
+    second: Attack4_Shadowless_44
+  - first:
+      213: 5131901937879751272
+    second: Attack4_Shadowless_45
+  - first:
+      213: -7571850567297244141
+    second: Attack4_Shadowless_46
+  - first:
+      213: -1296277620010896722
+    second: Attack4_Shadowless_47
+  - first:
+      213: -2073956136790792683
+    second: Attack4_Shadowless_48
+  - first:
+      213: -1572048169235514072
+    second: Attack4_Shadowless_49
+  - first:
+      213: -3393941925469370370
+    second: Attack4_Shadowless_50
+  - first:
+      213: 4332051429501447219
+    second: Attack4_Shadowless_51
+  - first:
+      213: 8697320862442992076
+    second: Attack4_Shadowless_52
+  - first:
+      213: 1712164766017630155
+    second: Attack4_Shadowless_53
+  - first:
+      213: 6193307980693928939
+    second: Attack4_Shadowless_54
+  - first:
+      213: 1081579309535552692
+    second: Attack4_Shadowless_55
+  - first:
+      213: 3209613786566064744
+    second: Attack4_Shadowless_56
+  - first:
+      213: 5286823481109477157
+    second: Attack4_Shadowless_57
+  - first:
+      213: -1378555806314661348
+    second: Attack4_Shadowless_58
+  - first:
+      213: 715968476258136702
+    second: Attack4_Shadowless_59
+  - first:
+      213: -5173994975576308958
+    second: Attack4_Shadowless_60
+  - first:
+      213: 8259109831054627085
+    second: Attack4_Shadowless_61
+  - first:
+      213: -9011763886646361861
+    second: Attack4_Shadowless_62
+  - first:
+      213: 4884854371255096338
+    second: Attack4_Shadowless_63
+  - first:
+      213: -2930385476637741574
+    second: Attack4_Shadowless_64
+  - first:
+      213: -1714362192049273872
+    second: Attack4_Shadowless_65
+  - first:
+      213: 4586642232446756867
+    second: Attack4_Shadowless_66
+  - first:
+      213: 6499179047893325691
+    second: Attack4_Shadowless_67
+  - first:
+      213: 2441803720118392752
+    second: Attack4_Shadowless_68
+  - first:
+      213: -764819140625476960
+    second: Attack4_Shadowless_69
+  - first:
+      213: 7949681138761774201
+    second: Attack4_Shadowless_70
+  - first:
+      213: -1660526401488880608
+    second: Attack4_Shadowless_71
+  - first:
+      213: 4491085231510468959
+    second: Attack4_Shadowless_72
+  - first:
+      213: -2461799641857750134
+    second: Attack4_Shadowless_73
+  - first:
+      213: 6876058379535587540
+    second: Attack4_Shadowless_74
+  - first:
+      213: -8156388438205664681
+    second: Attack4_Shadowless_75
+  - first:
+      213: 5046590569399620783
+    second: Attack4_Shadowless_76
+  - first:
+      213: -1373754032612188402
+    second: Attack4_Shadowless_77
+  - first:
+      213: 3126587592112343633
+    second: Attack4_Shadowless_78
+  - first:
+      213: 5973836261859013131
+    second: Attack4_Shadowless_79
+  - first:
+      213: 1470975552454806273
+    second: Attack4_Shadowless_80
+  - first:
+      213: 8736154144122317335
+    second: Attack4_Shadowless_81
+  - first:
+      213: 8987374372678868836
+    second: Attack4_Shadowless_82
+  - first:
+      213: -2490594291774518669
+    second: Attack4_Shadowless_83
+  - first:
+      213: -7099137193639894875
+    second: Attack4_Shadowless_84
+  - first:
+      213: -1357358842394905651
+    second: Attack4_Shadowless_85
+  - first:
+      213: 5861994717042780055
+    second: Attack4_Shadowless_86
+  - first:
+      213: 1403993198261448670
+    second: Attack4_Shadowless_87
+  - first:
+      213: -7004346665653028500
+    second: Attack4_Shadowless_88
+  - first:
+      213: -1114699881946273197
+    second: Attack4_Shadowless_89
+  - first:
+      213: 2683544251714447864
+    second: Attack4_Shadowless_90
+  - first:
+      213: -369395555949545090
+    second: Attack4_Shadowless_91
+  - first:
+      213: -8587602301202229810
+    second: Attack4_Shadowless_92
+  - first:
+      213: -7555947366851591557
+    second: Attack4_Shadowless_93
+  - first:
+      213: -4403830144077258566
+    second: Attack4_Shadowless_94
+  - first:
+      213: -7789970927073401011
+    second: Attack4_Shadowless_95
+  - first:
+      213: -1871833432556748077
+    second: Attack4_Shadowless_96
+  - first:
+      213: -6923067431912151068
+    second: Attack4_Shadowless_97
+  - first:
+      213: -5295908101066341704
+    second: Attack4_Shadowless_98
+  - first:
+      213: 5663546158512247459
+    second: Attack4_Shadowless_99
+  - first:
+      213: 3691460764137312090
+    second: Attack4_Shadowless_100
+  - first:
+      213: 7754436829453383927
+    second: Attack4_Shadowless_101
+  - first:
+      213: 8669017539118053958
+    second: Attack4_Shadowless_102
+  - first:
+      213: 6819436013907766584
+    second: Attack4_Shadowless_103
+  - first:
+      213: -9047083388534697086
+    second: Attack4_Shadowless_104
+  - first:
+      213: 7991806060657437120
+    second: Attack4_Shadowless_105
+  - first:
+      213: -7135946698485904440
+    second: Attack4_Shadowless_106
+  - first:
+      213: 1552982133697751
+    second: Attack4_Shadowless_107
+  - first:
+      213: -3712585189822532248
+    second: Attack4_Shadowless_108
+  - first:
+      213: 2340885228873121417
+    second: Attack4_Shadowless_109
+  - first:
+      213: -3041943419002232764
+    second: Attack4_Shadowless_110
+  - first:
+      213: 1221073117164038740
+    second: Attack4_Shadowless_111
+  - first:
+      213: -3710909997539512081
+    second: Attack4_Shadowless_112
+  - first:
+      213: 3075168971217592969
+    second: Attack4_Shadowless_113
+  - first:
+      213: 2026254247708750506
+    second: Attack4_Shadowless_114
+  - first:
+      213: 798702232328974268
+    second: Attack4_Shadowless_115
+  - first:
+      213: 2143532650949094024
+    second: Attack4_Shadowless_116
+  - first:
+      213: -2971271963241068959
+    second: Attack4_Shadowless_117
+  - first:
+      213: 3101504594808472375
+    second: Attack4_Shadowless_118
+  - first:
+      213: -6523609159368755934
+    second: Attack4_Shadowless_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack4_Shadowless_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 932
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4bfb38c4c9727c0800000000000000
+      internalID: -4096133483628350209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 932
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3078bb2fa6269d010800000000000000
+      internalID: 1214109786031490819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_2
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 932
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ef96d757ad7e4e0800000000000000
+      internalID: -1952351715291693427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 932
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ea769f49d5b8950800000000000000
+      internalID: 6452353785559232047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 932
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5276b13abe4cc81b0800000000000000
+      internalID: -5652926915923974363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 932
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a77820adf54c7d0800000000000000
+      internalID: -2899086870169814498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_6
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 932
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb96cf3e120239a0800000000000000
+      internalID: -6254934603521942579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_7
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 933
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359ea8dd81186d260800000000000000
+      internalID: 7122021804529084755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_8
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 933
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a58c95476e273690800000000000000
+      internalID: -7622572823216880221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_9
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 932
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4f5ecbe7ebdf080800000000000000
+      internalID: -9151949416202636086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_10
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 932
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d476a362693ad570800000000000000
+      internalID: 8492163142101923030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_11
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 932
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755814c5bfb0ff8a0800000000000000
+      internalID: -6269278982063946409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_12
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 932
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243ed6448f0843270800000000000000
+      internalID: 8229344222901035842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_13
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 932
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5688857deb818090800000000000000
+      internalID: -8033986408256862626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_14
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 932
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3e2ee9f90a292f0800000000000000
+      internalID: -967534362505321565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 806
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6d28eda210e9b40800000000000000
+      internalID: 5448793882798249644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_16
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 806
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3cc6ecdcb35dea0800000000000000
+      internalID: -5848702785953152050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 806
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74fbb6dd5461e0e0800000000000000
+      internalID: -2242400785256418180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_18
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 807
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2936de0f5824a60800000000000000
+      internalID: 7656829586304635598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_19
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 807
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae275aadf6aa92f80800000000000000
+      internalID: -8130780254854352150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_20
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 806
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5860c53db5ec790800000000000000
+      internalID: -7507962565439879731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_21
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 806
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992b6d15443c20ba0800000000000000
+      internalID: -6124117845072235879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_22
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 807
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f16b5bcd360d4200800000000000000
+      internalID: 165795623757111794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_23
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 807
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9da816404d8eba0800000000000000
+      internalID: -6059360183345555035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_24
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 806
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6766d95182e648590800000000000000
+      internalID: -7672886746692098442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_25
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 806
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8da65f01de1583b0800000000000000
+      internalID: -5510964685763596915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_26
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 806
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea982dc020a33570800000000000000
+      internalID: 8445269788991199982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_27
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 806
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539ea4a3fad8c3600800000000000000
+      internalID: 449389846566988085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_28
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 806
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f12c68aa7dcdf730800000000000000
+      internalID: 4034606767889195511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_29
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 806
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cc779749e1969f0800000000000000
+      internalID: -474814662668989317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_30
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 677
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db6b980274f86a60800000000000000
+      internalID: 7667647136206121939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_31
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 677
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b0c9a32668ae9a0800000000000000
+      internalID: -6202997780301214824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_32
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 677
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749d30bceb0c7b8e0800000000000000
+      internalID: -1677660410489874105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_33
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 676
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca787775a2613fbf0800000000000000
+      internalID: -291865179737061460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_34
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 676
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc67de771b188430800000000000000
+      internalID: 3785305274531146959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_35
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 676
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772b2f2f0e938c3e0800000000000000
+      internalID: -2033311593446329737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_36
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 676
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327f7888f10309ea0800000000000000
+      internalID: -5868137402471024861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_37
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 676
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427aa19f2181558c0800000000000000
+      internalID: -4011273423335807196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_38
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 676
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c53d5edd2344ed0800000000000000
+      internalID: -2430761970248229838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_39
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 676
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b740b17749a0190800000000000000
+      internalID: -7995414949167596724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_40
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 677
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b894e1330a9c8e0800000000000000
+      internalID: -1672629645179516134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_41
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 677
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9972fa0d8c1cc24f0800000000000000
+      internalID: -852093161241106535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_42
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 677
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed84920c14d5dad80800000000000000
+      internalID: -8237825606412580642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_43
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 677
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe005acc77490140800000000000000
+      internalID: 4686355488551472891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_44
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 677
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85d5c6435705e5f0800000000000000
+      internalID: -728167710499416690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_45
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 544
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a167d5f9d283740800000000000000
+      internalID: 5131901937879751272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_46
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 544
+        width: 21
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31468e3c6026be690800000000000000
+      internalID: -7571850567297244141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_47
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 544
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea236f06f52b20ee0800000000000000
+      internalID: -1296277620010896722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_48
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 544
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516e7d2c1e3d733e0800000000000000
+      internalID: -2073956136790792683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_49
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 544
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82df9e6e486fe2ae0800000000000000
+      internalID: -1572048169235514072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_50
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 544
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7c718fccb46e0d0800000000000000
+      internalID: -3393941925469370370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_51
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 544
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c282ca2d98e1c30800000000000000
+      internalID: 4332051429501447219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_52
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 544
+        width: 22
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc132877e3713b870800000000000000
+      internalID: 8697320862442992076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_53
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 544
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfab6388c4d2c710800000000000000
+      internalID: 1712164766017630155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_54
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 544
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb7add7bcc03f550800000000000000
+      internalID: 6193307980693928939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_55
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 544
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4674dc6aa820f00800000000000000
+      internalID: 1081579309535552692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_56
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 544
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a777ecbb6da8c20800000000000000
+      internalID: 3209613786566064744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_57
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 544
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52779bdf1f19e5940800000000000000
+      internalID: 5286823481109477157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_58
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 544
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aff8d4cc26edce0800000000000000
+      internalID: -1378555806314661348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_59
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 544
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e727eb92981afe900800000000000000
+      internalID: 715968476258136702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_60
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 418
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2234e139bf64238b0800000000000000
+      internalID: -5173994975576308958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_61
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 418
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0192f8f1a04e9270800000000000000
+      internalID: 8259109831054627085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_62
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 418
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf000c0dd78cfe280800000000000000
+      internalID: -9011763886646361861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_63
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 418
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2149c2a6b2d7ac340800000000000000
+      internalID: 4884854371255096338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_64
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 418
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd2b025fed2557d0800000000000000
+      internalID: -2930385476637741574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_65
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 418
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f30b8e5bac5538e0800000000000000
+      internalID: -1714362192049273872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_66
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 418
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3082bc03fc607af30800000000000000
+      internalID: 4586642232446756867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_67
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 418
+        width: 22
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77d751f8e8b13a50800000000000000
+      internalID: 6499179047893325691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_68
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 418
+        width: 22
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b752e4db8703e120800000000000000
+      internalID: 2441803720118392752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_69
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 418
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a259953b01d265f0800000000000000
+      internalID: -764819140625476960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_70
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 418
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974b48160e0f25e60800000000000000
+      internalID: 7949681138761774201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_71
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 418
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cf8132900a4f8e0800000000000000
+      internalID: -1660526401488880608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_72
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 418
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f593f28293a835e30800000000000000
+      internalID: 4491085231510468959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_73
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 418
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b82e6d44ee5ddd0800000000000000
+      internalID: -2461799641857750134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_74
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 418
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8111f4aaaac6f50800000000000000
+      internalID: 6876058379535587540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_75
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 296
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752f5aa0eefaece80800000000000000
+      internalID: -8156388438205664681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_76
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 296
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa496e78267190640800000000000000
+      internalID: 5046590569399620783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_77
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 296
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fd36d5cf17fece0800000000000000
+      internalID: -1373754032612188402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_78
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 297
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a000389ded36b20800000000000000
+      internalID: 3126587592112343633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_79
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 296
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02347eed6457e250800000000000000
+      internalID: 5973836261859013131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_80
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 296
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b4a5da874f96410800000000000000
+      internalID: 1470975552454806273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_81
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 296
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71aa77f68ed0d3970800000000000000
+      internalID: 8736154144122317335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_82
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 296
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f19f2ff5199bc70800000000000000
+      internalID: 8987374372678868836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_83
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 296
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a0a27ffa1af6dd0800000000000000
+      internalID: -2490594291774518669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_84
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 296
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0a451d55cca7d90800000000000000
+      internalID: -7099137193639894875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_85
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 297
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3f05e0351b92de0800000000000000
+      internalID: -1357358842394905651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_86
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 297
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7972d80132df95150800000000000000
+      internalID: 5861994717042780055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_87
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 296
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf2079006cfb7310800000000000000
+      internalID: 1403993198261448670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_88
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 296
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c693f0671df8bce90800000000000000
+      internalID: -7004346665653028500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_89
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 296
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a2c610d5ac780f0800000000000000
+      internalID: -1114699881946273197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_90
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 167
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f92b76674ddd3520800000000000000
+      internalID: 2683544251714447864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_91
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 167
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79f402f2b4afdaf0800000000000000
+      internalID: -369395555949545090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_92
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 167
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec59384c435b2d880800000000000000
+      internalID: -8587602301202229810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_93
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 167
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72434927e1e32790800000000000000
+      internalID: -7555947366851591557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_94
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 167
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab02e1301d372e2c0800000000000000
+      internalID: -4403830144077258566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_95
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 167
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d476b2107b674e390800000000000000
+      internalID: -7789970927073401011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_96
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 167
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d241c51969e506e0800000000000000
+      internalID: -1871833432556748077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_97
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 168
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7ecc4c9d25cef90800000000000000
+      internalID: -6923067431912151068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_98
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 168
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2c3d814a72186b0800000000000000
+      internalID: -5295908101066341704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_99
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 168
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a296237935f89e40800000000000000
+      internalID: 5663546158512247459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_100
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 169
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f42bcb104ba3330800000000000000
+      internalID: 3691460764137312090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_101
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 169
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f876cc263b4d9b60800000000000000
+      internalID: 7754436829453383927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_102
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 168
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a33ca75898e4870800000000000000
+      internalID: 8669017539118053958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_103
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 167
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d6a797ce083ae50800000000000000
+      internalID: 6819436013907766584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_104
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 167
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2835d05779d427280800000000000000
+      internalID: -9047083388534697086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_105
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 37
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9ec4f054998ee60800000000000000
+      internalID: 7991806060657437120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_106
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 37
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb40ac194608fc90800000000000000
+      internalID: -7135946698485904440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_107
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 37
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dceb64dd64850000800000000000000
+      internalID: 1552982133697751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_108
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 37
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8657042a07f3a7cc0800000000000000
+      internalID: -3712585189822532248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_109
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 37
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ef0fe86be7c7020800000000000000
+      internalID: 2340885228873121417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_110
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 37
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440e88bc398d8c5d0800000000000000
+      internalID: -3041943419002232764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_111
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 37
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a6751d78f12f010800000000000000
+      internalID: 1221073117164038740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_112
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 37
+        width: 23
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0363bb403308cc0800000000000000
+      internalID: -3710909997539512081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_113
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 38
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9826ab9e2e13daa20800000000000000
+      internalID: 3075168971217592969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_114
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 38
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa27e43b083be1c10800000000000000
+      internalID: 2026254247708750506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_115
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 38
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfa747d27f851b00800000000000000
+      internalID: 798702232328974268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_116
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 38
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88aa540d69b5fbd10800000000000000
+      internalID: 2143532650949094024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_117
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 37
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16640f354ebe3c6d0800000000000000
+      internalID: -2971271963241068959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_118
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 37
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7330dca1ff1ca0b20800000000000000
+      internalID: 3101504594808472375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack4_Shadowless_119
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 37
+        width: 23
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225375a780c7775a0800000000000000
+      internalID: -6523609159368755934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

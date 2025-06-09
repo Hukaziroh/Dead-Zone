@@ -1,0 +1,3130 @@
+fileFormatVersion: 2
+guid: 0af709cf958630b44a1e6fd8aefc680e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1304581991909266639
+    second: WakeUp_Shadowless_0
+  - first:
+      213: -3311238269940202332
+    second: WakeUp_Shadowless_1
+  - first:
+      213: 788942084787245476
+    second: WakeUp_Shadowless_2
+  - first:
+      213: 4305688191231144123
+    second: WakeUp_Shadowless_3
+  - first:
+      213: 3600393465638621067
+    second: WakeUp_Shadowless_4
+  - first:
+      213: -6776204805160642347
+    second: WakeUp_Shadowless_5
+  - first:
+      213: 7136186645607250950
+    second: WakeUp_Shadowless_6
+  - first:
+      213: -1247200737875826882
+    second: WakeUp_Shadowless_7
+  - first:
+      213: -1522492601178271567
+    second: WakeUp_Shadowless_8
+  - first:
+      213: 1722883447190012104
+    second: WakeUp_Shadowless_9
+  - first:
+      213: 4792495559774232082
+    second: WakeUp_Shadowless_10
+  - first:
+      213: 2969515148213350240
+    second: WakeUp_Shadowless_11
+  - first:
+      213: 6075043807247399958
+    second: WakeUp_Shadowless_12
+  - first:
+      213: -6642641346469442474
+    second: WakeUp_Shadowless_13
+  - first:
+      213: 5771642952212930347
+    second: WakeUp_Shadowless_14
+  - first:
+      213: -3406899010891427374
+    second: WakeUp_Shadowless_15
+  - first:
+      213: -4666839118956916796
+    second: WakeUp_Shadowless_16
+  - first:
+      213: -1516862822754154611
+    second: WakeUp_Shadowless_17
+  - first:
+      213: 5037787707702148055
+    second: WakeUp_Shadowless_18
+  - first:
+      213: -56429082086444806
+    second: WakeUp_Shadowless_19
+  - first:
+      213: -1387253033556757261
+    second: WakeUp_Shadowless_20
+  - first:
+      213: 4632048573365842667
+    second: WakeUp_Shadowless_21
+  - first:
+      213: -2084271089526018350
+    second: WakeUp_Shadowless_22
+  - first:
+      213: -1802305522154484605
+    second: WakeUp_Shadowless_23
+  - first:
+      213: 6158218366548998991
+    second: WakeUp_Shadowless_24
+  - first:
+      213: -7171147969689440087
+    second: WakeUp_Shadowless_25
+  - first:
+      213: 9218950943592145171
+    second: WakeUp_Shadowless_26
+  - first:
+      213: -340954041693873201
+    second: WakeUp_Shadowless_27
+  - first:
+      213: 3793893955790213457
+    second: WakeUp_Shadowless_28
+  - first:
+      213: 6656054222261975766
+    second: WakeUp_Shadowless_29
+  - first:
+      213: 4345412898522796253
+    second: WakeUp_Shadowless_30
+  - first:
+      213: -1225914307636022308
+    second: WakeUp_Shadowless_31
+  - first:
+      213: 3779615748216375233
+    second: WakeUp_Shadowless_32
+  - first:
+      213: -8768388682757425452
+    second: WakeUp_Shadowless_33
+  - first:
+      213: 1868154950932998040
+    second: WakeUp_Shadowless_34
+  - first:
+      213: 5396431918323069860
+    second: WakeUp_Shadowless_35
+  - first:
+      213: -6028233911940186559
+    second: WakeUp_Shadowless_36
+  - first:
+      213: 7668893627688326121
+    second: WakeUp_Shadowless_37
+  - first:
+      213: 5704970671330566046
+    second: WakeUp_Shadowless_38
+  - first:
+      213: 4188361896286651641
+    second: WakeUp_Shadowless_39
+  - first:
+      213: -9006524828961560477
+    second: WakeUp_Shadowless_40
+  - first:
+      213: -7468975459744801356
+    second: WakeUp_Shadowless_41
+  - first:
+      213: 4232786984754166034
+    second: WakeUp_Shadowless_42
+  - first:
+      213: -549585689646692905
+    second: WakeUp_Shadowless_43
+  - first:
+      213: 6313824691206076610
+    second: WakeUp_Shadowless_44
+  - first:
+      213: 6162994672758083211
+    second: WakeUp_Shadowless_45
+  - first:
+      213: -1826900083627160628
+    second: WakeUp_Shadowless_46
+  - first:
+      213: -4081746436427181616
+    second: WakeUp_Shadowless_47
+  - first:
+      213: 2250594321009225397
+    second: WakeUp_Shadowless_48
+  - first:
+      213: 7946034554593974718
+    second: WakeUp_Shadowless_49
+  - first:
+      213: -2014792113411930494
+    second: WakeUp_Shadowless_50
+  - first:
+      213: -7276269632727235825
+    second: WakeUp_Shadowless_51
+  - first:
+      213: -3224568090750167000
+    second: WakeUp_Shadowless_52
+  - first:
+      213: -2425093898807782108
+    second: WakeUp_Shadowless_53
+  - first:
+      213: 8208738995823184227
+    second: WakeUp_Shadowless_54
+  - first:
+      213: 1677137855701574604
+    second: WakeUp_Shadowless_55
+  - first:
+      213: 5493218803478339403
+    second: WakeUp_Shadowless_56
+  - first:
+      213: -1845580638021276032
+    second: WakeUp_Shadowless_57
+  - first:
+      213: -2608402402136400292
+    second: WakeUp_Shadowless_58
+  - first:
+      213: -6978010004688167755
+    second: WakeUp_Shadowless_59
+  - first:
+      213: -7429154549786087420
+    second: WakeUp_Shadowless_60
+  - first:
+      213: -749594439687661786
+    second: WakeUp_Shadowless_61
+  - first:
+      213: -8732874088301826846
+    second: WakeUp_Shadowless_62
+  - first:
+      213: 6021225866147352208
+    second: WakeUp_Shadowless_63
+  - first:
+      213: -84456420656091839
+    second: WakeUp_Shadowless_64
+  - first:
+      213: -7640806507094430686
+    second: WakeUp_Shadowless_65
+  - first:
+      213: -6051508343589655097
+    second: WakeUp_Shadowless_66
+  - first:
+      213: 2160695277361610030
+    second: WakeUp_Shadowless_67
+  - first:
+      213: 5739846549464452916
+    second: WakeUp_Shadowless_68
+  - first:
+      213: -173415956224954176
+    second: WakeUp_Shadowless_69
+  - first:
+      213: 1239221369838612990
+    second: WakeUp_Shadowless_70
+  - first:
+      213: 2954583415404464344
+    second: WakeUp_Shadowless_71
+  - first:
+      213: 993246265929743681
+    second: WakeUp_Shadowless_72
+  - first:
+      213: -1352822124133629811
+    second: WakeUp_Shadowless_73
+  - first:
+      213: 3624095105245945098
+    second: WakeUp_Shadowless_74
+  - first:
+      213: 8975325450913152176
+    second: WakeUp_Shadowless_75
+  - first:
+      213: 3328248489037140073
+    second: WakeUp_Shadowless_76
+  - first:
+      213: -5514191277467403372
+    second: WakeUp_Shadowless_77
+  - first:
+      213: 8295176606888191546
+    second: WakeUp_Shadowless_78
+  - first:
+      213: 1505164308318488700
+    second: WakeUp_Shadowless_79
+  - first:
+      213: -8905875048371971223
+    second: WakeUp_Shadowless_80
+  - first:
+      213: -2178315477147760740
+    second: WakeUp_Shadowless_81
+  - first:
+      213: 7425633198203570147
+    second: WakeUp_Shadowless_82
+  - first:
+      213: 6985333207079043446
+    second: WakeUp_Shadowless_83
+  - first:
+      213: -7543805147023838891
+    second: WakeUp_Shadowless_84
+  - first:
+      213: 5117952765812923690
+    second: WakeUp_Shadowless_85
+  - first:
+      213: 3621348350764998542
+    second: WakeUp_Shadowless_86
+  - first:
+      213: 3213813837748631271
+    second: WakeUp_Shadowless_87
+  - first:
+      213: 9010056555389709847
+    second: WakeUp_Shadowless_88
+  - first:
+      213: 4471750646300185512
+    second: WakeUp_Shadowless_89
+  - first:
+      213: -4848671186168150715
+    second: WakeUp_Shadowless_90
+  - first:
+      213: 442565370426979112
+    second: WakeUp_Shadowless_91
+  - first:
+      213: -657145474897419535
+    second: WakeUp_Shadowless_92
+  - first:
+      213: -6520029963573959428
+    second: WakeUp_Shadowless_93
+  - first:
+      213: -2857519978811716402
+    second: WakeUp_Shadowless_94
+  - first:
+      213: -6890200463353776969
+    second: WakeUp_Shadowless_95
+  - first:
+      213: -3080275671396598010
+    second: WakeUp_Shadowless_96
+  - first:
+      213: 5599316101879362333
+    second: WakeUp_Shadowless_97
+  - first:
+      213: -5184594890085686192
+    second: WakeUp_Shadowless_98
+  - first:
+      213: -2966731203527237398
+    second: WakeUp_Shadowless_99
+  - first:
+      213: 8071945515437848051
+    second: WakeUp_Shadowless_100
+  - first:
+      213: 9130254799537145705
+    second: WakeUp_Shadowless_101
+  - first:
+      213: -3933087375205999715
+    second: WakeUp_Shadowless_102
+  - first:
+      213: -4872275760177581738
+    second: WakeUp_Shadowless_103
+  - first:
+      213: -8411313617548179395
+    second: WakeUp_Shadowless_104
+  - first:
+      213: -8458915464260591015
+    second: WakeUp_Shadowless_105
+  - first:
+      213: 949827319350202630
+    second: WakeUp_Shadowless_106
+  - first:
+      213: -4626172663504487483
+    second: WakeUp_Shadowless_107
+  - first:
+      213: 4498531171221793289
+    second: WakeUp_Shadowless_108
+  - first:
+      213: -2035680622808163450
+    second: WakeUp_Shadowless_109
+  - first:
+      213: 6903566226530355624
+    second: WakeUp_Shadowless_110
+  - first:
+      213: -2892857496767289050
+    second: WakeUp_Shadowless_111
+  - first:
+      213: 7355590700518644873
+    second: WakeUp_Shadowless_112
+  - first:
+      213: 2326641304323330192
+    second: WakeUp_Shadowless_113
+  - first:
+      213: -8629429101715556464
+    second: WakeUp_Shadowless_114
+  - first:
+      213: 5312351529733923766
+    second: WakeUp_Shadowless_115
+  - first:
+      213: -1319328493262706610
+    second: WakeUp_Shadowless_116
+  - first:
+      213: -9165257097020704300
+    second: WakeUp_Shadowless_117
+  - first:
+      213: 711190254977176275
+    second: WakeUp_Shadowless_118
+  - first:
+      213: -1961612190737027823
+    second: WakeUp_Shadowless_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 937
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b60ef179135ede0800000000000000
+      internalID: -1304581991909266639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 938
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a40981565e1c02d0800000000000000
+      internalID: -3311238269940202332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_2
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 937
+        width: 51
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1991865a2e2fa00800000000000000
+      internalID: 788942084787245476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 936
+        width: 52
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb03defe890e0cb30800000000000000
+      internalID: 4305688191231144123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_4
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 935
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f070308ca27f130800000000000000
+      internalID: 3600393465638621067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 936
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8da1fa1a516f1a0800000000000000
+      internalID: -6776204805160642347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_6
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 927
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c7e4ee1f3d80360800000000000000
+      internalID: 7136186645607250950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 926
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e376e4f698d01bee0800000000000000
+      internalID: -1247200737875826882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_8
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 930
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0db95bb050fdae0800000000000000
+      internalID: -1522492601178271567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_9
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 930
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c04923fd59e8e710800000000000000
+      internalID: 1722883447190012104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_10
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 929
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21edaf3e15d528240800000000000000
+      internalID: 4792495559774232082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_11
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 929
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fe56c4b46d53920800000000000000
+      internalID: 2969515148213350240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_12
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 929
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61cfaedd724ee4450800000000000000
+      internalID: 6075043807247399958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_13
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 929
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ccd5db3e890d3a0800000000000000
+      internalID: -6642641346469442474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_14
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 930
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fd9018faef81050800000000000000
+      internalID: 5771642952212930347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 801
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1df2e666348b0d0800000000000000
+      internalID: -3406899010891427374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 801
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf0daa1c8e0c3fb0800000000000000
+      internalID: -4666839118956916796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_17
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 801
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d870eb4ac4503fae0800000000000000
+      internalID: -1516862822754154611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_18
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 800
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db7a639a31d9e540800000000000000
+      internalID: 5037787707702148055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_19
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 798
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af07c3f7c06873ff0800000000000000
+      internalID: -56429082086444806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_20
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 798
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4344947bc7fbce0800000000000000
+      internalID: -1387253033556757261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_21
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 798
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be273d5c2a7584040800000000000000
+      internalID: 4632048573365842667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_22
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 797
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de6f2dac7e2313e0800000000000000
+      internalID: -2084271089526018350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_23
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 796
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cc1473dacecf6e0800000000000000
+      internalID: -1802305522154484605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_24
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 802
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b707b0af2667550800000000000000
+      internalID: 6158218366548998991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_25
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 804
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0b5ea7ae6fa7c90800000000000000
+      internalID: -7171147969689440087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_26
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 803
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311ef820a0b40ff70800000000000000
+      internalID: 9218950943592145171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_27
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 803
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb5a140b10b44bf0800000000000000
+      internalID: -340954041693873201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_28
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 803
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151906ea37e96a430800000000000000
+      internalID: 3793893955790213457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_29
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 803
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6daf9a3cc0e0f5c50800000000000000
+      internalID: 6656054222261975766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_30
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 669
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd01ada12020e4c30800000000000000
+      internalID: 4345412898522796253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_31
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 669
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd33940be6dacfee0800000000000000
+      internalID: -1225914307636022308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_32
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 669
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7c8eb6f74e37430800000000000000
+      internalID: 3779615748216375233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_33
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 669
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d630bf23fc605680800000000000000
+      internalID: -8768388682757425452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_34
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 668
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897afbba7050de910800000000000000
+      internalID: 1868154950932998040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_35
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 668
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3f93afc3af3ea40800000000000000
+      internalID: 5396431918323069860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_36
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 667
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e77df2239675ca0800000000000000
+      internalID: -6028233911940186559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_37
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 667
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e39e927f126d6a60800000000000000
+      internalID: 7668893627688326121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_38
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 669
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f1eae69902c2f40800000000000000
+      internalID: 5704970671330566046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_39
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 676
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f482fa24fc002a30800000000000000
+      internalID: 4188361896286651641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_40
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 677
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368a20df265620380800000000000000
+      internalID: -9006524828961560477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_41
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 677
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd1dc5446ed85890800000000000000
+      internalID: -7468975459744801356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_42
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 677
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2193b2c1651edba30800000000000000
+      internalID: 4232786984754166034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_43
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 677
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d588f22aba7f58f0800000000000000
+      internalID: -549585689646692905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_44
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 678
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8bd65ca163f9750800000000000000
+      internalID: 6313824691206076610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 542
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ece5e700b578550800000000000000
+      internalID: 6162994672758083211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_46
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 541
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb8543ad0c85a6e0800000000000000
+      internalID: -1826900083627160628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_47
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 542
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d19a89fd39ba57c0800000000000000
+      internalID: -4081746436427181616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_48
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 541
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be244d5c97bb3f10800000000000000
+      internalID: 2250594321009225397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_49
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 541
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb99d87d35cf54e60800000000000000
+      internalID: 7946034554593974718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_50
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 541
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286c2d76f350a04e0800000000000000
+      internalID: -2014792113411930494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_51
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 543
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03c453025f750b90800000000000000
+      internalID: -7276269632727235825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_52
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 545
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828d6cce7680043d0800000000000000
+      internalID: -3224568090750167000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_53
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 548
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425589e92f5585ed0800000000000000
+      internalID: -2425093898807782108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_54
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 547
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36900fbff9c4be170800000000000000
+      internalID: 8208738995823184227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_55
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 547
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3e3707ef3664710800000000000000
+      internalID: 1677137855701574604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_56
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 547
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f92deb565db3c40800000000000000
+      internalID: 5493218803478339403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_57
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 547
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e2762203e2366e0800000000000000
+      internalID: -1845580638021276032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_58
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 547
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e526dc5d71dcbd0800000000000000
+      internalID: -2608402402136400292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_59
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 547
+        width: 21
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc907f2fd0292f90800000000000000
+      internalID: -6978010004688167755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_60
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 405
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400f58e5c4756e890800000000000000
+      internalID: -7429154549786087420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_61
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 406
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6271fc024d7e895f0800000000000000
+      internalID: -749594439687661786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_62
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 410
+        width: 52
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec6e8219499ec680800000000000000
+      internalID: -8732874088301826846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_63
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 413
+        width: 52
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e4b100601bf8350800000000000000
+      internalID: 6021225866147352208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_64
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 414
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14deac73553f3def0800000000000000
+      internalID: -84456420656091839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_65
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 417
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ca42be6f666f590800000000000000
+      internalID: -7640806507094430686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_66
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 419
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cda6094939b40ca0800000000000000
+      internalID: -6051508343589655097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_67
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 422
+        width: 45
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2db00b28e45cfd10800000000000000
+      internalID: 2160695277361610030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_68
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 424
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f8416960808af40800000000000000
+      internalID: 5739846549464452916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_69
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 423
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0b3da4b17e79df0800000000000000
+      internalID: -173415956224954176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_70
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 423
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1bd4b2549923110800000000000000
+      internalID: 1239221369838612990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_71
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 422
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8817656f9c00920800000000000000
+      internalID: 2954583415404464344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_72
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 422
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14db9376738b8cd00800000000000000
+      internalID: 993246265929743681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_73
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 422
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80c9b6127fc93de0800000000000000
+      internalID: -1352822124133629811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_74
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 421
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d9a640c4f5b4230800000000000000
+      internalID: 3624095105245945098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_75
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 274
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bc733db1f2ce8c70800000000000000
+      internalID: 8975325450913152176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_76
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 275
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9601a41fd50503e20800000000000000
+      internalID: 3328248489037140073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_77
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 279
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b7ff2af38a973b0800000000000000
+      internalID: -5514191277467403372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_78
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 281
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3663ba9c236e1370800000000000000
+      internalID: 8295176606888191546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_79
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 283
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c788be5b6fa63e410800000000000000
+      internalID: 1505164308318488700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_80
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 287
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b16cf24d9f76480800000000000000
+      internalID: -8905875048371971223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_81
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 294
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c974fdf5d9115c1e0800000000000000
+      internalID: -2178315477147760740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_82
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 296
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e785431d062d0760800000000000000
+      internalID: 7425633198203570147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_83
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 301
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 671cfadba83e0f060800000000000000
+      internalID: 6985333207079043446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_84
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 302
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55171e400350f4790800000000000000
+      internalID: -7543805147023838891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_85
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 301
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dd187acee960740800000000000000
+      internalID: 5117952765812923690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_86
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 301
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f5b47632d914230800000000000000
+      internalID: 3621348350764998542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_87
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 301
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6fd3d68a2c99c20800000000000000
+      internalID: 3213813837748631271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_88
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 300
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71eee2623b62a0d70800000000000000
+      internalID: 9010056555389709847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_89
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 299
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a398dc3589de0e30800000000000000
+      internalID: 4471750646300185512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_90
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 152
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54586cbde3f06bcb0800000000000000
+      internalID: -4848671186168150715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_91
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 152
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823703e0cde442600800000000000000
+      internalID: 442565370426979112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_92
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 153
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2ebfa1ca951e6f0800000000000000
+      internalID: -657145474897419535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_93
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 153
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf46540fa433485a0800000000000000
+      internalID: -6520029963573959428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_94
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 152
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc885418bc0858d0800000000000000
+      internalID: -2857519978811716402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_95
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 158
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4f0963f271160a0800000000000000
+      internalID: -6890200463353776969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_96
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 163
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fb02cc899a045d0800000000000000
+      internalID: -3080275671396598010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_97
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 163
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13f4a50454c4bd40800000000000000
+      internalID: 5599316101879362333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_98
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 166
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0542328aa6e9c08b0800000000000000
+      internalID: -5184594890085686192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_99
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 167
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae021b550bd04d6d0800000000000000
+      internalID: -2966731203527237398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_100
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 169
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5faf5edaf450070800000000000000
+      internalID: 8071945515437848051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_101
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 170
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9678733bd5e25be70800000000000000
+      internalID: 9130254799537145705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_102
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 170
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bd542eeddda69c0800000000000000
+      internalID: -3933087375205999715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_103
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 170
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6517ed2b203326cb0800000000000000
+      internalID: -4872275760177581738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_104
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 170
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3882a374d2054b80800000000000000
+      internalID: -8411313617548179395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_105
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 33
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95260b7d335eb9a80800000000000000
+      internalID: -8458915464260591015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 33
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60194df1ae67e2d00800000000000000
+      internalID: 949827319350202630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_107
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 34
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb313a19788ccfb0800000000000000
+      internalID: -4626172663504487483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_108
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 34
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a62b7144efd6e30800000000000000
+      internalID: 4498531171221793289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_109
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 32
+        width: 44
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68b9f51524fcfb3e0800000000000000
+      internalID: -2035680622808163450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_110
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 34
+        width: 46
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9c9b708e46ecf50800000000000000
+      internalID: 6903566226530355624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_111
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 32
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6292c570f618ad7d0800000000000000
+      internalID: -2892857496767289050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_112
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 29
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c949145ce441660800000000000000
+      internalID: 7355590700518644873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_113
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 33
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09091ff60f3e94020800000000000000
+      internalID: 2326641304323330192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_114
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 34
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09773d1e3fb1e3880800000000000000
+      internalID: -8629429101715556464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_115
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 34
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b32bcbf19349b940800000000000000
+      internalID: 5312351529733923766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_116
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 36
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e486609b9bdc0bde0800000000000000
+      internalID: -1319328493262706610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_117
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 37
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d9f3f8da377ec080800000000000000
+      internalID: -9165257097020704300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_118
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 37
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d252a3d4c7aed900800000000000000
+      internalID: 711190254977176275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WakeUp_Shadowless_119
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 37
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d2b080b14f6c4e0800000000000000
+      internalID: -1961612190737027823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
