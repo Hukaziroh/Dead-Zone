@@ -41,12 +41,7 @@ public class Enemy : MonoBehaviour
             {
                 rigid.MovePosition(targetPos);
             }
-            else
-            {
-                // 경계 밖으로 나가지 않도록 이동 무시하거나 보정 처리 가능
-                // 예: 이동 무시
-                // 또는 targetPos를 카메라 경계 안쪽 가장 가까운 점으로 보정 가능
-            }
+            
         }
         else
         {
