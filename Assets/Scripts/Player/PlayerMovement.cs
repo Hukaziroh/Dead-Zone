@@ -28,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (!isAttacking)
         {
+            // 이동 입력 처리
             moveInput.x = Input.GetAxisRaw("Horizontal");
             moveInput.y = Input.GetAxisRaw("Vertical");
             moveInput.Normalize();
@@ -39,12 +40,21 @@ public class PlayerMovement : MonoBehaviour
                 lastMoveDir = moveInput;
             }
 
-            Vector2 displayDir = isMoving ? moveInput : lastMoveDir;
+            // 마우스 월드 좌표 계산
+            Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mouseWorldPos.z = 0;
 
-            anim.SetFloat("MoveX", displayDir.x);
-            anim.SetFloat("MoveY", displayDir.y);
+            // 플레이어 -> 마우스 방향 벡터 (Normalize)
+            Vector2 mouseDir = (mouseWorldPos - transform.position).normalized;
+
+            // 애니메이터 파라미터에 마우스 방향 넣기 (시점용)
+            anim.SetFloat("MoveX", mouseDir.x);
+            anim.SetFloat("MoveY", mouseDir.y);
+
+            // 이동 중 여부 설정
             anim.SetBool("IsMoving", isMoving);
 
+            // 애니메이션 재생 속도 조절 (이동 속도 기반)
             anim.speed = isMoving ? moveSpeed / baseSpeed : 1f;
         }
         else
@@ -53,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsMoving", false);
         }
 
+        // 공격 입력 처리
         if (Input.GetMouseButtonDown(0) && !isAttacking)
         {
             anim.SetTrigger("IsAttack");
