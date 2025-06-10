@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [Header("# Game Object")]
     public PoolManager pool;
     public Player player;
+    public Collider2D Bound;
 
 
     private void Start()

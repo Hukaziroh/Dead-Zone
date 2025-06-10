@@ -1,8 +1,8 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-
     public float speed;
     public float health;
     public float maxHealth;
@@ -10,31 +10,49 @@ public class Enemy : MonoBehaviour
     public Rigidbody2D target;
     public RuntimeAnimatorController[] animCon;
 
+    // 추가: 카메라 바운드 콜라이더 참조 (씬에서 할당)
+    public Collider2D cameraBoundsCollider;
+
     bool isLive;
     Collider2D coll;
     Rigidbody2D rigid;
     Animator anim;
     SpriteRenderer spriter;
     WaitForFixedUpdate wait;
+
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         spriter = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
-        wait = new WaitForFixedUpdate();
         coll = GetComponent<Collider2D>();
-    }
-    void Start()
-    {
-
+        wait = new WaitForFixedUpdate();
     }
 
     private void FixedUpdate()
     {
         Vector2 dirVec = target.position - rigid.position;
         Vector2 nextVec = dirVec.normalized * speed * Time.fixedDeltaTime;
+        Vector2 targetPos = rigid.position + nextVec;
 
-       
+        if (cameraBoundsCollider != null)
+        {
+            if (cameraBoundsCollider.OverlapPoint(targetPos))
+            {
+                rigid.MovePosition(targetPos);
+            }
+            else
+            {
+                // 경계 밖으로 나가지 않도록 이동 무시하거나 보정 처리 가능
+                // 예: 이동 무시
+                // 또는 targetPos를 카메라 경계 안쪽 가장 가까운 점으로 보정 가능
+            }
+        }
+        else
+        {
+            rigid.MovePosition(targetPos);
+        }
+
         if (dirVec.sqrMagnitude > 0.01f)
         {
             anim.SetFloat("MoveX", dirVec.normalized.x);
@@ -46,17 +64,12 @@ public class Enemy : MonoBehaviour
             anim.SetBool("IsMoving", false);
         }
 
-  
-        rigid.MovePosition(rigid.position + nextVec);
         rigid.linearVelocity = Vector2.zero;
     }
-
 
     private void OnEnable()
     {
         target = GameManager.instance.player.GetComponent<Rigidbody2D>();
-        
+        cameraBoundsCollider = GameManager.instance.Bound.GetComponent<Collider2D>();
     }
-
 }
-
