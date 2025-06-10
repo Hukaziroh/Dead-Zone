@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
         Vector2 dirVec = target.position - rigid.position;
         Vector2 nextVec = dirVec.normalized * speed * Time.fixedDeltaTime;
 
-        // �ִϸ��̼� ���� ����
+       
         if (dirVec.sqrMagnitude > 0.01f)
         {
             anim.SetFloat("MoveX", dirVec.normalized.x);
@@ -46,11 +46,17 @@ public class Enemy : MonoBehaviour
             anim.SetBool("IsMoving", false);
         }
 
-        // �̵� ó��
+  
         rigid.MovePosition(rigid.position + nextVec);
         rigid.linearVelocity = Vector2.zero;
     }
 
+
+    private void OnEnable()
+    {
+        target = GameManager.instance.player.GetComponent<Rigidbody2D>();
+        
+    }
 
 }
 
