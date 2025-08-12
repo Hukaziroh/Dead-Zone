@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StrafeLeft_135_013_0: 4621890135043644786
+      StrafeLeft_135_013_1: -1526428741939647269
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

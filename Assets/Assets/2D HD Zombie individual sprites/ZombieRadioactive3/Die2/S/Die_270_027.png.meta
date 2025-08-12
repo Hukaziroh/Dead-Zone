@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Die_270_027_0: -5143774847267420257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Taunt_225_001_0: 4606070397721005102
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

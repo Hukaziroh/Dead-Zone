@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      WaterTower_Shadow_0: 3364732577034877807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Roof E14_W_0: -7409429067314619112
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

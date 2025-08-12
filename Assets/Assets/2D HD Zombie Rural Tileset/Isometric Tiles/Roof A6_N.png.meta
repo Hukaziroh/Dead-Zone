@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Roof A6_N_0: 6109105628564216828
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

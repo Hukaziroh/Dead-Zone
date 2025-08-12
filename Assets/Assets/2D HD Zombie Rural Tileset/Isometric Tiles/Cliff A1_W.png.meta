@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cliff A1_W_0: -7230995221951555203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

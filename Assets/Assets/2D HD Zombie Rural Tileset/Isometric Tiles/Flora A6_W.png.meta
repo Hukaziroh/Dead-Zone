@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flora A6_W_0: 3584844071505525423
+      Flora A6_W_1: 1840505003363895663
+      Flora A6_W_2: -6796813311393692963
+      Flora A6_W_3: 4206732125821379362
+      Flora A6_W_4: 3582551386217295970
+      Flora A6_W_5: 4110512967686523587
+      Flora A6_W_6: 6161022479248668662
+      Flora A6_W_7: 1548096730504378066
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

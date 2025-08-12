@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flora B10_S_0: -2960325937049862656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

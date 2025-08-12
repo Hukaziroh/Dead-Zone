@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ShadowTile A4_0: -6328989424848386283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

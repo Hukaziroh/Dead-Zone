@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CampFire.png0007_0: -1597098721163927422
+      CampFire.png0007_1: 3925073766530815648
+      CampFire.png0007_2: 5777440041607940881
+      CampFire.png0007_3: 717614818616826392
+      CampFire.png0007_4: -4590337758153468315
+      CampFire.png0007_5: -6904033906387753868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

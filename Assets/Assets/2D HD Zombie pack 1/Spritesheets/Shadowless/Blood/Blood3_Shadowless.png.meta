@@ -472,7 +472,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blood3_Shadowless_0: 8842131886485328142
+      Blood3_Shadowless_1: 1963356893278515333
+      Blood3_Shadowless_10: 6314838564868043853
+      Blood3_Shadowless_11: 7147302692023560589
+      Blood3_Shadowless_12: -7693978558916125266
+      Blood3_Shadowless_13: -6661529198512181722
+      Blood3_Shadowless_2: 2249825474385473409
+      Blood3_Shadowless_3: 5119273265775066810
+      Blood3_Shadowless_4: -3415442934459711749
+      Blood3_Shadowless_5: -3564330949699849194
+      Blood3_Shadowless_6: -7273813146615802288
+      Blood3_Shadowless_7: -7459002646538713560
+      Blood3_Shadowless_8: 8345542634015190153
+      Blood3_Shadowless_9: -3717776655850902268
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

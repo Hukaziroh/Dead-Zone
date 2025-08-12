@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bridge3_S_0: 5025084059884833935
+      Bridge3_S_1: 6782107512951184135
+      Bridge3_S_2: -4136917063183541027
+      Bridge3_S_3: 2072724099337111366
+      Bridge3_S_4: -4252330898683603861
+      Bridge3_S_5: -1778145352056085802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -397,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Die_180_029_0: -4819287778051139696
+      Die_180_029_1: 6228390022088165753
+      Die_180_029_10: 4267921588176195275
+      Die_180_029_2: 480029785052375848
+      Die_180_029_3: 6871201932759304682
+      Die_180_029_4: 8340410125476548246
+      Die_180_029_5: -1219756154251443757
+      Die_180_029_6: -4561693699537173284
+      Die_180_029_7: 371907367831830948
+      Die_180_029_8: -6511589540578646679
+      Die_180_029_9: 7979488245242891273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

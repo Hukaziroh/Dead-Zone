@@ -972,7 +972,41 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blood1_Shadowless_0: 2847871211674532987
+      Blood1_Shadowless_1: 8277816549504195930
+      Blood1_Shadowless_10: -3005696468239845732
+      Blood1_Shadowless_11: -131719311342373330
+      Blood1_Shadowless_12: 1999187212299635935
+      Blood1_Shadowless_13: -8393111733723056392
+      Blood1_Shadowless_14: 2096506888001250449
+      Blood1_Shadowless_15: -8072931676890466382
+      Blood1_Shadowless_16: 2000122489404242559
+      Blood1_Shadowless_17: 1199156352596813919
+      Blood1_Shadowless_18: -5862623614202784783
+      Blood1_Shadowless_19: 3215249157307814030
+      Blood1_Shadowless_2: 4693127102971828471
+      Blood1_Shadowless_20: 3267598173879523613
+      Blood1_Shadowless_21: 4806437692158483924
+      Blood1_Shadowless_22: -6299956313470472713
+      Blood1_Shadowless_23: -690652700757145248
+      Blood1_Shadowless_24: 7022109579554264939
+      Blood1_Shadowless_25: -5348841328836706932
+      Blood1_Shadowless_26: -6215606604988717143
+      Blood1_Shadowless_27: 1264535074539196812
+      Blood1_Shadowless_28: -8072796261023729418
+      Blood1_Shadowless_29: 7336699410355024141
+      Blood1_Shadowless_3: -1544321365098297022
+      Blood1_Shadowless_30: -7343872636685574696
+      Blood1_Shadowless_31: -1078954890991875145
+      Blood1_Shadowless_32: -2880354358202020731
+      Blood1_Shadowless_33: 1309112713640898970
+      Blood1_Shadowless_4: -7204015088787662681
+      Blood1_Shadowless_5: 279771895200649941
+      Blood1_Shadowless_6: 6432230117169875079
+      Blood1_Shadowless_7: -3502699069547624022
+      Blood1_Shadowless_8: 6188632340677715018
+      Blood1_Shadowless_9: -4350403250787950556
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Acid1_Shadowless_0: -1228205133408487668
+      Acid1_Shadowless_1: -8842549659530311026
+      Acid1_Shadowless_10: -2912502564860166808
+      Acid1_Shadowless_11: -5557563288687648196
+      Acid1_Shadowless_12: -3194405183912409176
+      Acid1_Shadowless_13: -2068088993509817969
+      Acid1_Shadowless_14: -3499050042989907951
+      Acid1_Shadowless_2: -5264337578382830399
+      Acid1_Shadowless_3: 7323666883820770475
+      Acid1_Shadowless_4: 8350530414214532145
+      Acid1_Shadowless_5: -4972387651055584843
+      Acid1_Shadowless_6: -3574497885419064971
+      Acid1_Shadowless_7: 4878065106214553291
+      Acid1_Shadowless_8: 8968343947120437924
+      Acid1_Shadowless_9: 7874255111193552400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

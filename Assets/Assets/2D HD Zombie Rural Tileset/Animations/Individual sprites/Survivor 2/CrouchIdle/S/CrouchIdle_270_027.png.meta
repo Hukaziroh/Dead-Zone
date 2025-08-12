@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CrouchIdle_270_027_0: 7821349374803767286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

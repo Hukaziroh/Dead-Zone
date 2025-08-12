@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flora G13_W_0: -4785215018964885124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

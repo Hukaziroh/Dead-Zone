@@ -522,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Acid1_0: 6368925453754011792
+      Acid1_1: 3097495253066877353
+      Acid1_10: -3169972542348747098
+      Acid1_11: -3534592198314489557
+      Acid1_12: -8406980633045407054
+      Acid1_13: -7746697634899868976
+      Acid1_14: -7793906717859932916
+      Acid1_15: -5508327819385615665
+      Acid1_2: -2735032345947341063
+      Acid1_3: -8624404220629270815
+      Acid1_4: -6407003275315169968
+      Acid1_5: -7306804273280009868
+      Acid1_6: -2625320601102473249
+      Acid1_7: 231336884935252526
+      Acid1_8: 69749276935860465
+      Acid1_9: -8630760201559708760
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

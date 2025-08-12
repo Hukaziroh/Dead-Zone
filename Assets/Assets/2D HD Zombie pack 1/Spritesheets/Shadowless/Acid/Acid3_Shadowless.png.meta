@@ -572,7 +572,25 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Acid3_Shadowless_0: -3552459912836071940
+      Acid3_Shadowless_1: -3923130341030971889
+      Acid3_Shadowless_10: -6635297070716846216
+      Acid3_Shadowless_11: -7691172112040253461
+      Acid3_Shadowless_12: 7692515000051512787
+      Acid3_Shadowless_13: 5299787292231799163
+      Acid3_Shadowless_14: -6065015144972988715
+      Acid3_Shadowless_15: 7309423094278486125
+      Acid3_Shadowless_16: -3615700944004939838
+      Acid3_Shadowless_17: 4802654274478219207
+      Acid3_Shadowless_2: -4511688296196409473
+      Acid3_Shadowless_3: 2130839333319752515
+      Acid3_Shadowless_4: 5502444526954433786
+      Acid3_Shadowless_5: -6220519806181514214
+      Acid3_Shadowless_6: -8369499535793399004
+      Acid3_Shadowless_7: -8249712045505699839
+      Acid3_Shadowless_8: -2160568369564197582
+      Acid3_Shadowless_9: -7115300044141073717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

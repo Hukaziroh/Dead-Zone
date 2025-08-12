@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CrouchRun_45_017_0: 5686069904993762834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      StrafeRight_90_021_0: -8579588418242976991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
