@@ -6,7 +6,7 @@ public class Enemy : MonoBehaviour
     public float speed;
     public float health;
     public float maxHealth;
-
+    public int damage = 100;
     public Rigidbody2D target;
     public RuntimeAnimatorController[] animCon;
 
@@ -66,5 +66,17 @@ public class Enemy : MonoBehaviour
     {
         target = GameManager.instance.player.GetComponent<Rigidbody2D>();
         cameraBoundsCollider = GameManager.instance.Bound.GetComponent<Collider2D>();
+    }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Player player = collision.gameObject.GetComponent<Player>();
+            if (player != null)
+            {
+                player.TakeDamage(damage);
+            }
+        }
     }
 }
