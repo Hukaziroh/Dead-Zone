@@ -190,6 +190,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7686641774193787334, guid: 3d9c0500d7fcdfa48b74241881fcf1e8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1977095033}
+    - target: {fileID: 7686641774193787334, guid: 3d9c0500d7fcdfa48b74241881fcf1e8, type: 3}
+      propertyPath: cameraBoundsCollider
+      value: 
+      objectReference: {fileID: 533715330}
     - target: {fileID: 8652725105975919409, guid: 3d9c0500d7fcdfa48b74241881fcf1e8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.47
@@ -907,6 +915,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3809497259018584721, guid: f91c2bae244e1f84dac2b6552dd95c4a, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1977095033}
+    - target: {fileID: 3809497259018584721, guid: f91c2bae244e1f84dac2b6552dd95c4a, type: 3}
+      propertyPath: cameraBoundsCollider
+      value: 
+      objectReference: {fileID: 533715330}
     - target: {fileID: 5157709276744764879, guid: f91c2bae244e1f84dac2b6552dd95c4a, type: 3}
       propertyPath: m_Name
       value: Enemy_01
@@ -1319,6 +1335,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2604501429817162139, guid: 80989c62d0cf94c4885d4ffe410f5043, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1977095033}
+    - target: {fileID: 2604501429817162139, guid: 80989c62d0cf94c4885d4ffe410f5043, type: 3}
+      propertyPath: cameraBoundsCollider
+      value: 
+      objectReference: {fileID: 533715330}
     - target: {fileID: 4290839444149353353, guid: 80989c62d0cf94c4885d4ffe410f5043, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.59
@@ -1653,7 +1677,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 328291252}
@@ -154876,6 +154900,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5775499526156206952, guid: 3c69cc0096c70774cbc1e4f478ce6f54, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1977095033}
+    - target: {fileID: 5775499526156206952, guid: 3c69cc0096c70774cbc1e4f478ce6f54, type: 3}
+      propertyPath: cameraBoundsCollider
+      value: 
+      objectReference: {fileID: 533715330}
     - target: {fileID: 7636894594114407747, guid: 3c69cc0096c70774cbc1e4f478ce6f54, type: 3}
       propertyPath: m_Size.x
       value: 0.41519073
@@ -154977,6 +155009,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7419002408005402712, guid: 15fc504f9f65f624b860ecda8f27d32d, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 1977095033}
+    - target: {fileID: 7419002408005402712, guid: 15fc504f9f65f624b860ecda8f27d32d, type: 3}
+      propertyPath: cameraBoundsCollider
+      value: 
+      objectReference: {fileID: 533715330}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
