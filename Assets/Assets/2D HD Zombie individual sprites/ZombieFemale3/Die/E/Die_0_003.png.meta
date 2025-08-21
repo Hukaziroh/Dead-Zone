@@ -119,12 +119,12 @@ TextureImporter:
       name: Die_0_003_0
       rect:
         serializedVersion: 2
-        x: 57
-        y: 34
-        width: 20
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,33 +137,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Die_0_003_1
-      rect:
-        serializedVersion: 2
-        x: 60
-        y: 81
-        width: 17
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d18603ef50d23890800000000000000
-      internalID: -7479686920859647530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dc55eb9ab3652284f8b9e60cc5a9079c
     internalID: 0
     vertices: []
     indices: 

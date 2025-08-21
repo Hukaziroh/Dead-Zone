@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4200718887133992375}
   - component: {fileID: 7853285324395461768}
-  - component: {fileID: 419842424332689813}
   - component: {fileID: 7801734114606426027}
   - component: {fileID: 2035903316461588691}
   - component: {fileID: 5775499526156206952}
   - component: {fileID: 7636894594114407747}
-  m_Layer: 0
+  - component: {fileID: 5143522906710345178}
+  m_Layer: 6
   m_Name: Enemy_05
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -92,28 +92,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &419842424332689813
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8942886978372241706}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a6a459d8fb70b7f4a801771edaef9160, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &7801734114606426027
 Rigidbody2D:
   serializedVersion: 5
@@ -190,13 +168,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec4662cbd389bd4d9d7ad5e78343673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackCollider: {fileID: 7636894594114407747}
   speed: 1
   health: 0
   maxHealth: 0
   damage: 100
   target: {fileID: 0}
-  animCon: []
-  cameraBoundsCollider: {fileID: 0}
 --- !u!61 &7636894594114407747
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -204,7 +181,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8942886978372241706}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -243,3 +220,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.23, y: 0.5}
   m_EdgeRadius: 0
+--- !u!95 &5143522906710345178
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8942886978372241706}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a6a459d8fb70b7f4a801771edaef9160, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5989144058432650701}
   - component: {fileID: 7686641774193787334}
   - component: {fileID: 8712523532998171946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy_02
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -190,13 +190,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ec4662cbd389bd4d9d7ad5e78343673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackCollider: {fileID: 8712523532998171946}
   speed: 1
   health: 0
   maxHealth: 0
   damage: 100
   target: {fileID: 0}
-  animCon: []
-  cameraBoundsCollider: {fileID: 0}
 --- !u!61 &8712523532998171946
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -204,7 +203,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7117077858432074329}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}

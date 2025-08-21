@@ -119,12 +119,12 @@ TextureImporter:
       name: Die_90_009_0
       rect:
         serializedVersion: 2
-        x: 47
-        y: 37
-        width: 36
-        height: 59
+        x: 50
+        y: 40
+        width: 30
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -137,33 +137,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Die_90_009_1
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 87
-        width: 16
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6a99fd594022df820800000000000000
-      internalID: 2953554333714586022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 079f88ace75a91d4596bd7ebc8ba119d
     internalID: 0
     vertices: []
     indices: 

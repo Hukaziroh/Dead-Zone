@@ -1,39 +1,50 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic; // List를 사용하기 위해 추가!
 
 public class StartButton : MonoBehaviour
 {
-    // 씬 이름 배열 (씬 빌드 세팅에 등록된 씬 이름 혹은 인덱스 사용 가능)
+    // 게임 세션 동안 마지막으로 로드한 씬의 이름을 기억할 static 변수
+    private static string lastLoadedScene = null;
+
     public string[] sceneNames = { "autumn", "Spring", "summer", "winter" };
 
-    // UI 버튼의 OnClick() 이벤트에 연결할 함수
     public void OnStartButtonClicked()
     {
-        // 씬 이름 배열이 비어있지 않은지 확인 (안전장치)
-        if (sceneNames == null || sceneNames.Length == 0)
+        // 1. 선택 가능한 씬 목록을 새로 만듭니다.
+        List<string> availableScenes = new List<string>(sceneNames);
+
+        // 2. 만약 이전에 플레이한 씬이 있다면, 목록에서 제외합니다.
+        if (!string.IsNullOrEmpty(lastLoadedScene))
         {
-            Debug.LogError("로드할 씬 이름이 배열에 없습니다!");
-            return;
+            availableScenes.Remove(lastLoadedScene);
         }
 
-        // 1. 0부터 (배열의 크기 - 1) 사이의 랜덤한 숫자(인덱스)를 뽑습니다.
-        int randomIndex = Random.Range(0, sceneNames.Length);
+        // 3. 제외했더니 선택할 씬이 하나도 없다면 (예: 총 씬이 1개일 경우),
+        //    어쩔 수 없이 다시 전체 목록에서 선택하도록 합니다.
+        if (availableScenes.Count == 0)
+        {
+            availableScenes = new List<string>(sceneNames);
+        }
 
-        // 2. 뽑힌 랜덤 인덱스를 사용해 배열에서 씬 이름을 가져옵니다.
-        string sceneToLoad = sceneNames[randomIndex];
+        // 4. '선택 가능한' 씬 목록 중에서 랜덤으로 하나를 고릅니다.
+        int randomIndex = Random.Range(0, availableScenes.Count);
+        string sceneToLoad = availableScenes[randomIndex];
 
-        // 3. 이름으로 씬을 로드합니다.
+        // 5. 다음번을 위해, 방금 고른 씬의 이름을 '마지막으로 플레이한 씬'으로 기억시킵니다.
+        lastLoadedScene = sceneToLoad;
+
+        // 6. 선택된 씬을 로드합니다.
         Debug.Log("'" + sceneToLoad + "' 씬을 로드합니다.");
         SceneManager.LoadScene(sceneToLoad);
     }
 
     public void OnQuitButtonClicked()
     {
-        // 에디터에서는 종료 안 되고 로그만 출력
-        #if UNITY_EDITOR
+#if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
-        #else
+#else
             Application.Quit();
-        #endif
+#endif
     }
 }

@@ -131,9 +131,9 @@ GameObject:
   - component: {fileID: 58379684}
   - component: {fileID: 58379683}
   - component: {fileID: 58379685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: car
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1895,9 +1895,9 @@ GameObject:
   - component: {fileID: 710933810}
   - component: {fileID: 710933809}
   - component: {fileID: 710933811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: boat
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2301,9 +2301,9 @@ GameObject:
   - component: {fileID: 882402896}
   - component: {fileID: 882402895}
   - component: {fileID: 882402897}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fence
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4209,9 +4209,9 @@ GameObject:
   - component: {fileID: 935484945}
   - component: {fileID: 935484944}
   - component: {fileID: 935484946}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: water
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33754,7 +33754,7 @@ GameObject:
   - component: {fileID: 935582211}
   - component: {fileID: 935582210}
   - component: {fileID: 935582209}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}

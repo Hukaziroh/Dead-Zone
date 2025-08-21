@@ -21,8 +21,7 @@ public class PlayerAttack : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             if (!IsInAttackState())
-            {
-                // --- 기존 코드는 그대로 둡니다 ---
+            {             
                 Vector3 mouseWorldPos = cam.ScreenToWorldPoint(Input.mousePosition);
                 mouseWorldPos.z = 0;
                 Vector2 dir = (mouseWorldPos - transform.position).normalized;
@@ -30,12 +29,10 @@ public class PlayerAttack : MonoBehaviour
                 // ▼▼▼▼▼ 여기에 핵심 코드를 추가합니다 ▼▼▼▼▼
                 // 마우스 방향을 기반으로 총알 생성 위치를 실시간으로 업데이트합니다.
                 // 0.5f 라는 값은 플레이어 중심에서 얼마나 떨어진 곳에 생성할지 정하는 거리입니다.
-                // 이 값을 조절해서 총알이 생성되는 위치를微세하게 바꿀 수 있습니다.
-                float spawnDistance = 0.3f; // 이 값을 조절해 보세요.
+                // 이 값을 조절해서 총알이 생성되는 위치를세세하게 바꿀 수 있습니다.
+                float spawnDistance = 0.3f; 
                 bulletSpawnPoint.localPosition = dir * spawnDistance;
-                // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
-
-                // --- 나머지 기존 코드도 그대로 둡니다 ---
+                     
                 anim.SetFloat("AttackX", dir.x);
                 anim.SetFloat("AttackY", dir.y);
                 anim.SetTrigger("IsAttack");

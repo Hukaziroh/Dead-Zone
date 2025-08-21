@@ -29442,7 +29442,7 @@ GameObject:
   - component: {fileID: 1190235949}
   m_Layer: 0
   m_Name: water
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47397,6 +47397,10 @@ PrefabInstance:
     - target: {fileID: 4541538644210795477, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626627112209832953, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4918377264585819408, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
       propertyPath: m_Name
@@ -146598,7 +146602,7 @@ GameObject:
   - component: {fileID: 1637123899}
   - component: {fileID: 1637123898}
   - component: {fileID: 1637123897}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155132,7 +155136,7 @@ GameObject:
   - component: {fileID: 1679091041}
   m_Layer: 0
   m_Name: fence
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158040,7 +158044,7 @@ GameObject:
   - component: {fileID: 1775978268}
   - component: {fileID: 1775978269}
   - component: {fileID: 1775978270}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cameraBounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159449,7 +159453,7 @@ GameObject:
   - component: {fileID: 1839261376}
   m_Layer: 0
   m_Name: Car
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

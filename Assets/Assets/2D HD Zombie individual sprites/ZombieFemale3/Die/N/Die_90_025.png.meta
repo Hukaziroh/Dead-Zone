@@ -128,12 +128,12 @@ TextureImporter:
       name: Die_90_025_0
       rect:
         serializedVersion: 2
-        x: 30
-        y: 30
-        width: 64
-        height: 53
+        x: 50
+        y: 40
+        width: 30
+        height: 50
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -146,99 +146,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Die_90_025_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 41
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90c4921995778efa0800000000000000
-      internalID: -5771231695904093175
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Die_90_025_2
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 27
-        width: 21
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e233d824f9680a780800000000000000
-      internalID: -8673784863741103314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Die_90_025_3
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 17
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 192807b4fbfa9cad0800000000000000
-      internalID: -2681418866983140719
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Die_90_025_4
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 14
-        width: 13
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae9afe96bf9a4b6d0800000000000000
-      internalID: -2975566556505855510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 09251579a5133714d92442b5854dac51
     internalID: 0
     vertices: []
     indices: 
