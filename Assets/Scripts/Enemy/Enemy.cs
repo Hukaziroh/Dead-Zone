@@ -1,3 +1,5 @@
+// Enemy.cs 전체 코드 (Init 함수 추가됨)
+
 using System.Collections;
 using UnityEngine;
 
@@ -21,6 +23,7 @@ public class Enemy : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
+
     IEnumerator AttackProcess()
     {
         isAttacking = true;
@@ -31,16 +34,14 @@ public class Enemy : MonoBehaviour
         isAttacking = false;
     }
 
-    // ▼▼▼ 충돌 함수에서 직접 코루틴을 호출하도록 변경 ▼▼▼
-
+   
+    #region 기존 코드
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && isLive && !isAttacking)
         {
             rigid.bodyType = RigidbodyType2D.Static;
             anim.SetBool("IsAttack", true);
-
-            // 여기서 직접 코루틴을 시작합니다.
             StartCoroutine(AttackProcess());
         }
     }
@@ -49,7 +50,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            rigid.bodyType = RigidbodyType2D.Kinematic; // 또는 Dynamic
+            rigid.bodyType = RigidbodyType2D.Kinematic;
             anim.SetBool("IsAttack", false);
         }
     }
@@ -62,26 +63,16 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // --- 나머지 함수들은 그대로 유지 ---
-    #region 기존 함수들
     private void OnEnable()
     {
-        // --- 기존의 초기화 코드는 그대로 둡니다 ---
         target = GameManager.instance.player.GetComponent<Rigidbody2D>();
         health = maxHealth;
         isLive = true;
         rigid.simulated = true;
-
-        // ▼▼▼▼▼ 핵심 해결 코드 ▼▼▼▼▼
-        // 이 오브젝트에 붙어있는 모든 콜라이더를 찾아서 다시 활성화(enable)시킵니다.
         foreach (Collider2D col in GetComponents<Collider2D>())
         {
             col.enabled = true;
         }
-        // ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲
-
-        // 공격 콜라이더는 평소에 꺼져 있어야 하므로,
-        // 모든 콜라이더를 켠 후에 공격 콜라이더만 다시 한번 확실하게 꺼줍니다.
         if (attackCollider != null)
         {
             attackCollider.enabled = false;
@@ -124,6 +115,7 @@ public class Enemy : MonoBehaviour
         {
             col.enabled = false;
         }
+        GameManager.instance.AddKill();
         yield return new WaitForSeconds(3f);
         gameObject.SetActive(false);
     }

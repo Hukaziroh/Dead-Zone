@@ -49,7 +49,7 @@ public class Player : MonoBehaviour
         GetComponent<PlayerMovement>().enabled = false;
         // 물리적 충돌을 멈춤
         GetComponent<Collider2D>().enabled = false;
-
+        GetComponent<PlayerAttack>().enabled = false;
         // 3. 애니메이션이 재생될 시간 동안 대기 
         yield return new WaitForSeconds(3f);
 
