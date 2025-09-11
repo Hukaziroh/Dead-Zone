@@ -29711,7 +29711,7 @@ GameObject:
   - component: {fileID: 1190235951}
   - component: {fileID: 1190235950}
   - component: {fileID: 1190235949}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: water
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -155453,7 +155453,7 @@ GameObject:
   - component: {fileID: 1679091043}
   - component: {fileID: 1679091042}
   - component: {fileID: 1679091041}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: fence
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -160533,7 +160533,7 @@ GameObject:
   - component: {fileID: 1869293298}
   - component: {fileID: 1869293297}
   - component: {fileID: 1869293296}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerTargetCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}

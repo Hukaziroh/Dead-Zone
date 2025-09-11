@@ -16701,7 +16701,7 @@ GameObject:
   - component: {fileID: 836585936}
   - component: {fileID: 836585939}
   - component: {fileID: 836585938}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: fence
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -17953,7 +17953,7 @@ GameObject:
   - component: {fileID: 966820006}
   - component: {fileID: 966820005}
   - component: {fileID: 966820004}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerTargetCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21918,6 +21918,10 @@ PrefabInstance:
     - target: {fileID: 4918377264585819408, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729894191588304589, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
+      propertyPath: tilemapLayer.m_Bits
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8729894191588304589, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
       propertyPath: spawnData.Array.data[0].speed
@@ -120337,7 +120341,7 @@ GameObject:
   - component: {fileID: 1712169458}
   - component: {fileID: 1712169457}
   - component: {fileID: 1712169459}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: water
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -132866,7 +132870,7 @@ GameObject:
   - component: {fileID: 2079400125}
   - component: {fileID: 2079400124}
   - component: {fileID: 2079400128}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: car
   m_TagString: Wall
   m_Icon: {fileID: 0}

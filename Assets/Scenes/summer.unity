@@ -22059,6 +22059,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8729894191588304589, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
+      propertyPath: tilemapLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729894191588304589, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
       propertyPath: spawnData.Array.data[0].speed
       value: 1
       objectReference: {fileID: 0}
@@ -22143,7 +22147,7 @@ GameObject:
   - component: {fileID: 670614743}
   - component: {fileID: 670614742}
   - component: {fileID: 670614741}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: boat
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -22347,7 +22351,7 @@ GameObject:
   - component: {fileID: 713337628}
   - component: {fileID: 713337627}
   - component: {fileID: 713337626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: fence
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -25250,7 +25254,7 @@ GameObject:
   - component: {fileID: 1278722449}
   - component: {fileID: 1278722448}
   - component: {fileID: 1278722447}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: cameraBounds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118918,7 +118922,7 @@ GameObject:
   - component: {fileID: 1675684865}
   - component: {fileID: 1675684864}
   - component: {fileID: 1675684863}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: car
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -121217,7 +121221,7 @@ GameObject:
   - component: {fileID: 1759768382}
   - component: {fileID: 1759768381}
   - component: {fileID: 1759768380}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerTargetCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -122475,7 +122479,7 @@ GameObject:
   - component: {fileID: 1854115747}
   - component: {fileID: 1854115746}
   - component: {fileID: 1854115745}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: water
   m_TagString: Water
   m_Icon: {fileID: 0}

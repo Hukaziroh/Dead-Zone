@@ -1592,6 +1592,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 8729894191588304589, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
+      propertyPath: tilemapLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8729894191588304589, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
       propertyPath: spawnData.Array.data[0].speed
       value: 1
       objectReference: {fileID: 0}
@@ -1966,7 +1970,7 @@ GameObject:
   - component: {fileID: 710933810}
   - component: {fileID: 710933809}
   - component: {fileID: 710933811}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: boat
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -2244,7 +2248,7 @@ GameObject:
   - component: {fileID: 774245031}
   - component: {fileID: 774245030}
   - component: {fileID: 774245029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: PlayerTargetCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4359,7 +4363,7 @@ GameObject:
   - component: {fileID: 935484945}
   - component: {fileID: 935484944}
   - component: {fileID: 935484946}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: water
   m_TagString: Water
   m_Icon: {fileID: 0}

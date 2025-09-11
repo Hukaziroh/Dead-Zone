@@ -48,8 +48,6 @@ public class Spawner : MonoBehaviour
         GameObject enemyObject = GameManager.instance.pool.Get(randomEnemyType);
         enemyObject.transform.position = randomPoint.position;
 
-        // ▼▼▼ Init 함수 호출 부분을 삭제합니다. ▼▼▼
-        // 이제 능력치는 각 프리팹이 스스로 가지고 있습니다.
     }
 
     Transform FindValidSpawnPoint()
@@ -57,13 +55,37 @@ public class Spawner : MonoBehaviour
         for (int i = 0; i < maxSpawnAttempts; i++)
         {
             Transform randomPoint = spawnPoint[Random.Range(1, spawnPoint.Length)];
+
+            // 디버그용: 스폰 시도 위치를 먼저 출력
+            Debug.Log("스폰 시도 위치: " + randomPoint.position + " (시도 #" + (i + 1) + ")");
+
+            // 지정된 tilemapLayer만 대상으로 OverlapPoint를 시도합니다.
             Collider2D hit = Physics2D.OverlapPoint(randomPoint.position, tilemapLayer);
 
-            if (hit == null || (!hit.CompareTag("Obstacle") && !hit.CompareTag("Water")))
+            if (hit != null)
             {
-                return randomPoint;
+                // 감지된 오브젝트의 이름과 태그, 레이어를 상세히 출력
+                Debug.Log("  -> 감지된 오브젝트: " + hit.gameObject.name + ", 태그: " + hit.tag + ", 레이어: " + LayerMask.LayerToName(hit.gameObject.layer));
+
+                // 태그가 "Obstacle"이거나 "Water"인지 확인
+                if (hit.CompareTag("Wall") || hit.CompareTag("Water"))
+                {
+                    Debug.LogWarning("  -> " + hit.gameObject.name + " (" + hit.tag + ") 이(가) 스폰 불가 지역입니다. 다음 위치를 시도합니다.");
+                    continue; // 스폰 불가 지역이므로 다음 시도로 넘어갑니다.
+                }
             }
+            else
+            {
+                Debug.Log("  -> 스폰 지점에서 아무 콜라이더도 감지되지 않았습니다. (스폰 가능)");
+            }
+
+            // 여기까지 왔다면 유효한 스폰 위치이므로 반환
+            Debug.Log("<color=green>  -> 유효한 스폰 위치를 찾았습니다: " + randomPoint.position + "</color>");
+            return randomPoint;
         }
+
+        // 모든 시도가 실패했을 경우
+        Debug.LogError("<color=red>모든 스폰 시도(10번)가 실패했습니다. 유효한 스폰 위치를 찾지 못했습니다.</color>");
         return null;
     }
 }
