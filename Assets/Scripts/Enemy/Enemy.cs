@@ -1,4 +1,4 @@
-// Enemy.cs 전체 코드 (Init 함수 추가됨)
+// Enemy.cs
 
 using System.Collections;
 using UnityEngine;

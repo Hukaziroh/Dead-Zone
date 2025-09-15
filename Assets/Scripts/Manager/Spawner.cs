@@ -5,6 +5,8 @@ public class Spawner : MonoBehaviour
     public Transform[] spawnPoint;
     public SpawnData[] spawnData;
     public LayerMask tilemapLayer;
+    public int bossPoolIndex;       // PoolManager에 등록된 보스 프리팹의 인덱스
+    public Transform bossSpawnPoint; // 보스가 스폰될 고정 위치
 
     float timer;
     int maxSpawnAttempts = 10;
@@ -87,6 +89,20 @@ public class Spawner : MonoBehaviour
         // 모든 시도가 실패했을 경우
         Debug.LogError("<color=red>모든 스폰 시도(10번)가 실패했습니다. 유효한 스폰 위치를 찾지 못했습니다.</color>");
         return null;
+    }
+
+    // GameManager가 호출할 함수: 일반 몬스터 스폰 중지
+    public void StopSpawning()
+    {
+        // Spawner 스크립트 자체를 비활성화하여 Update 함수를 멈춥니다.
+        this.enabled = false;
+    }
+
+    // GameManager가 호출할 함수: 보스 스폰
+    public void SpawnBoss()
+    {
+        GameObject boss = GameManager.instance.pool.Get(bossPoolIndex);
+        boss.transform.position = bossSpawnPoint.position;
     }
 }
 
