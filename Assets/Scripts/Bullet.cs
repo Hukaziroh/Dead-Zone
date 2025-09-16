@@ -1,6 +1,7 @@
-// Bullet.cs (수정된 OnTriggerEnter2D 함수)
+// Bullet.cs (3초 후 자동 비활성화 기능 추가)
 
 using UnityEngine;
+using System.Collections; // 코루틴을 사용하기 위해 추가!
 
 public class Bullet : MonoBehaviour
 {
@@ -9,10 +10,13 @@ public class Bullet : MonoBehaviour
     Rigidbody2D rb;
 
     private bool hasHit;
+    public float lifetime = 3f; // 총알의 수명 (3초)
 
     void OnEnable()
     {
         hasHit = false;
+        // ▼▼▼ 오브젝트 풀에서 활성화될 때마다 코루틴 시작 ▼▼▼
+        StartCoroutine(DisableAfterDelay(lifetime));
     }
 
     private void Awake()
@@ -32,29 +36,26 @@ public class Bullet : MonoBehaviour
             return;
         }
 
-        // ▼▼▼ 여기에 Boss 태그 처리 로직 추가 ▼▼▼
         if (other.CompareTag("Boss"))
         {
-            Boss boss = other.GetComponent<Boss>(); // Boss 컴포넌트 가져오기
-            if (boss != null) // Boss 컴포넌트가 있는지 확인
+            Boss boss = other.GetComponent<Boss>();
+            if (boss != null)
             {
-                hasHit = true; // 보스와 부딪혔으니 플래그 설정
+                hasHit = true;
                 boss.TakeDamage(damage);
-                gameObject.SetActive(false); // 총알 비활성화
+                gameObject.SetActive(false);
             }
             else
             {
                 Debug.LogWarning("총알이 'Boss' 태그 오브젝트와 충돌했지만 Boss 스크립트를 찾을 수 없습니다: " + other.name);
-                // 스크립트가 없어도 총알은 사라지게 하려면 여기서 gameObject.SetActive(false);
-                // 하지만 현재 목표는 데미지이므로 스크립트 없는 경우 총알은 유지
             }
         }
         else if (other.CompareTag("Enemy"))
         {
-            Enemy enemy = other.GetComponent<Enemy>(); // Enemy 컴포넌트 가져오기
-            if (enemy != null) // Enemy 컴포넌트가 있는지 확인
+            Enemy enemy = other.GetComponent<Enemy>();
+            if (enemy != null)
             {
-                hasHit = true; // 적과 부딪혔으니 플래그 설정
+                hasHit = true;
                 enemy.TakeDamage(damage);
                 gameObject.SetActive(false);
             }
@@ -65,11 +66,28 @@ public class Bullet : MonoBehaviour
         }
         else if (other.CompareTag("Wall"))
         {
-            hasHit = true; // 벽과 부딪혔으니 플래그 설정
+            hasHit = true;
             gameObject.SetActive(false);
         }
-        // ▼▼▼ 이 외의 다른 오브젝트와 충돌 시 총알을 어떻게 할지 결정 ▼▼▼
-        // 현재는 아무것도 안 하면 총알이 계속 날아갑니다.
-        // 예를 들어, else { hasHit = true; gameObject.SetActive(false); } 를 추가하여 모든 충돌에 총알이 사라지게 할 수 있습니다.
+        // 이 외의 다른 오브젝트와 충돌 시 총알을 어떻게 할지 결정
+        // 여기서는 기본적으로 아무것도 안 하면 총알이 계속 날아가므로
+        // 다른 것에 닿았을 때도 사라지게 하려면 아래 else 블록 추가
+        // else
+        // {
+        //     hasHit = true;
+        //     gameObject.SetActive(false);
+        // }
+    }
+
+    // ▼▼▼ 3초 후 총알을 비활성화하는 코루틴 추가 ▼▼▼
+    IEnumerator DisableAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        // 이미 다른 충돌로 비활성화되지 않았다면 비활성화
+        if (gameObject.activeSelf)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

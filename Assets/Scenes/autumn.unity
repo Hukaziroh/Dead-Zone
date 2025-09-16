@@ -4254,9 +4254,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4626627112209832953, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4918377264585819408, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916981453647709895, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.161
+      objectReference: {fileID: 0}
+    - target: {fileID: 6916981453647709895, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.038
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317366256135304331, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
+      propertyPath: offsetUp.y
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 8729894191588304589, guid: b82e9bf746721db4eac6e97d33958182, type: 3}
       propertyPath: bossSpawnPoint

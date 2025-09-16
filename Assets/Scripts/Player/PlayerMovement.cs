@@ -63,11 +63,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("IsMoving", false);
         }
 
-        // 공격 입력 처리
-        if (Input.GetMouseButtonDown(0) && !isAttacking)
-        {
-            anim.SetTrigger("IsAttack");
-        }
+        
     }
 
     private void FixedUpdate()
