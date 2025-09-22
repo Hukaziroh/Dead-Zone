@@ -8,9 +8,9 @@ public class StartButton : MonoBehaviour
     private static string lastLoadedScene = null;
 
     public string[] sceneNames = { "autumn", "Spring", "summer", "winter" };
-
     public void OnStartButtonClicked()
     {
+     
         // 1. 선택 가능한 씬 목록을 새로 만듭니다.
         List<string> availableScenes = new List<string>(sceneNames);
 
@@ -46,5 +46,10 @@ public class StartButton : MonoBehaviour
 #else
             Application.Quit();
 #endif
+    }
+
+    public void OnLobbyButtonClicked()
+    {
+        SceneManager.LoadScene("Lobby");
     }
 }
