@@ -464,6 +464,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
+  currentAttackDamage: 10
+  currentAttackCooldown: 0.7
+  currentMoveSpeed: 2
 --- !u!114 &6564096246570589791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,6 +496,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPoolIndex: 5
   playerCenterPoint: {fileID: 0}
+  currentAttackDamage: 10
+  currentAttackCooldown: 0.5
   offsetUp: {x: 0, y: 0.2}
   offsetDown: {x: 0, y: -0.5}
   offsetLeft: {x: -0.5, y: 0.1}
