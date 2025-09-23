@@ -291,13 +291,13 @@ MonoBehaviour:
   - {fileID: 4122360384657515633}
   - {fileID: 7628377631227450543}
   spawnData:
-  - spriteTypes: 00000000
+  - spriteTypes: 0000000001000000
     spawnTime: 1.5
-  - spriteTypes: 00000000
+  - spriteTypes: 0000000002000000
     spawnTime: 1
-  - spriteTypes: 00000000
+  - spriteTypes: 0200000003000000
     spawnTime: 1
-  - spriteTypes: 02000000
+  - spriteTypes: 000000000200000004000000
     spawnTime: 1
   - spriteTypes: 03000000
     spawnTime: 1

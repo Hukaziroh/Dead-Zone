@@ -69,14 +69,7 @@ public class Bullet : MonoBehaviour
             hasHit = true;
             gameObject.SetActive(false);
         }
-        // 이 외의 다른 오브젝트와 충돌 시 총알을 어떻게 할지 결정
-        // 여기서는 기본적으로 아무것도 안 하면 총알이 계속 날아가므로
-        // 다른 것에 닿았을 때도 사라지게 하려면 아래 else 블록 추가
-        // else
-        // {
-        //     hasHit = true;
-        //     gameObject.SetActive(false);
-        // }
+    
     }
 
     // ▼▼▼ 3초 후 총알을 비활성화하는 코루틴 추가 ▼▼▼

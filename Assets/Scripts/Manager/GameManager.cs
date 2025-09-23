@@ -5,11 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public Spawner spawner; // Spawner 참조 추가
-
-    [Header("# Game Control")]
-    public float gameTime;
-    public float maxGameTime = 2 * 10f;
+    public Spawner spawner; 
 
     [Header("# Player Info")]
     public Player player;
@@ -18,16 +14,11 @@ public class GameManager : MonoBehaviour
     public PoolManager pool;
     public Collider2D Bound;
 
-    // [Header("# UI Elements")] // ▼▼▼ UI 관련 변수 모두 제거 ▼▼▼
-    // public TextMeshProUGUI waveText;
-    // public TextMeshProUGUI killCountText;
-    // public Slider bossHealthBar;
-
     [Header("# Wave System")]
     private int wave = 1;
     private int killsThisWave = 0;
     private int[] killsToNextWave = { 4, 4, 4, 4, 1 };
-    private Boss currentBoss; // 보스 관리 (로직을 위해 유지, UI는 UIManager가 처리)
+    private Boss currentBoss;
     public int bossWave = 5;
 
     [Header("Pause & Game State")]
@@ -64,12 +55,6 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        gameTime += Time.deltaTime;
-        if (gameTime > maxGameTime)
-        {
-            gameTime = maxGameTime;
-        }
-
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isGamePaused)
@@ -176,28 +161,13 @@ public class GameManager : MonoBehaviour
         Debug.Log("BOSS KILLED! GAME CLEAR!");
     }
 
-    // ▼▼▼ UIManager가 이제 UI 업데이트를 전담함 ▼▼▼
-    // void UpdateUI() { /* 이 함수는 이제 UIManager로 옮겨지거나 제거됨 */ }
-
     public void PlayerDied()
     {
         PauseGame();
-        // if (UIManager.instance != null) { UIManager.instance.ShowGameOverPanel(); }
     }
 
     public int level;
-    public int exp;
-    public int[] nextExp = { 10, 30, 60, 100, 150, 210, 280, 360, 450, 600 };
+    
 
-    public void GetExp()
-    {
-        exp++;
-        if (exp >= nextExp[Mathf.Min(level, nextExp.Length - 1)])
-        {
-            level++;
-            exp = 0;
-            // 플레이어 레벨 UI 업데이트가 필요하다면 UIManager 호출
-            // if (UIManager.instance != null) UIManager.instance.UpdatePlayerLevelUI(level);
-        }
-    }
+ 
 }
