@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     [Header("# Wave System")]
     private int wave = 1;
     private int killsThisWave = 0;
-    private int[] killsToNextWave = { 4, 4, 4, 4, 1 }; // 기존 코드의 killsToNextWave 유지
+    private int[] killsToNextWave = { 1, 1, 1, 1, 1 }; // 기존 코드의 killsToNextWave 유지
     private Boss currentBoss;
     public int bossWave = 5;
 
@@ -142,16 +142,14 @@ public class GameManager : MonoBehaviour
 
         level = wave - 1; // 몬스터 스폰 레벨 조절용
 
-        // 보스 웨이브가 아닐 때만 스탯 업그레이드 UI 표시
         if (wave == bossWave)
         {
             if (spawner != null) spawner.StopSpawning();
             if (spawner != null) spawner.SpawnBoss();
+            // Debug.Log("Boss Wave Activated! Spawning Boss..."); // 보스 스폰 관련 로그 추가
         }
-        else // 일반 웨이브 진행 시 스탯 업그레이드 UI 표시
-        {
-            ShowUpgradeUI(); // ▼▼▼ 스탯 업그레이드 UI 표시 ▼▼▼
-        }
+     
+        ShowUpgradeUI(); // <--- 이 위치로 이동 (모든 웨이브 전환 시 호출)
 
         // UIManager를 통해 UI 업데이트 호출
         if (UIManager.instance != null)
