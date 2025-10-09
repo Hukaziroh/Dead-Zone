@@ -1,8 +1,10 @@
-// Enemy.cs
+// Enemy.cs (죽음 소리 기능 추가 버전)
 
 using System.Collections;
 using UnityEngine;
 
+// ▼▼▼ 1. AudioSource를 사용하기 위해 RequireComponent 추가 ▼▼▼
+[RequireComponent(typeof(AudioSource))]
 public class Enemy : MonoBehaviour
 {
     public Collider2D attackCollider;
@@ -17,12 +19,17 @@ public class Enemy : MonoBehaviour
     Animator anim;
     private bool isAttacking = false;
 
+    // ▼▼▼ 2. 사운드 재생을 위한 변수 추가 ▼▼▼
+    public AudioClip deathSound; // 인스펙터에서 지정할 죽음 소리
+    private AudioSource audioSource;
+
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        // ▼▼▼ 3. AudioSource 컴포넌트 초기화 ▼▼▼
+        audioSource = GetComponent<AudioSource>();
     }
-
 
     IEnumerator AttackProcess()
     {
@@ -34,7 +41,27 @@ public class Enemy : MonoBehaviour
         isAttacking = false;
     }
 
-   
+    IEnumerator DieSequence()
+    {
+        // ▼▼▼ 4. 죽음 애니메이션 시작과 동시에 사운드 재생 ▼▼▼
+        if (deathSound != null)
+        {
+            audioSource.PlayOneShot(deathSound);
+        }
+
+        anim.SetBool("IsDead", true);
+        rigid.simulated = false;
+        foreach (Collider2D col in GetComponents<Collider2D>())
+        {
+            col.enabled = false;
+        }
+        GameManager.instance.AddKill();
+        yield return new WaitForSeconds(3f);
+        gameObject.SetActive(false);
+    }
+
+    // --- (이하 기존 코드와 동일) ---
+
     #region 기존 코드
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -105,19 +132,6 @@ public class Enemy : MonoBehaviour
             isLive = false;
             StartCoroutine(DieSequence());
         }
-    }
-
-    IEnumerator DieSequence()
-    {
-        anim.SetBool("IsDead", true);
-        rigid.simulated = false;
-        foreach (Collider2D col in GetComponents<Collider2D>())
-        {
-            col.enabled = false;
-        }
-        GameManager.instance.AddKill();
-        yield return new WaitForSeconds(3f);
-        gameObject.SetActive(false);
     }
     #endregion
 }

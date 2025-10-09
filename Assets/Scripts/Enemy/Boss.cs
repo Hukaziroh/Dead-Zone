@@ -1,8 +1,10 @@
-// Boss.cs (디버그 메시지 제거 버전)
+// Boss.cs (죽음 소리 기능 추가 버전)
 
 using System.Collections;
 using UnityEngine;
 
+// ▼▼▼ 1. AudioSource를 사용하기 위해 RequireComponent 추가 ▼▼▼
+[RequireComponent(typeof(AudioSource))]
 public class Boss : MonoBehaviour
 {
     public Collider2D attackCollider;
@@ -17,11 +19,43 @@ public class Boss : MonoBehaviour
     Animator anim;
     private bool isAttacking = false;
 
+    // ▼▼▼ 2. 사운드 재생을 위한 변수 추가 ▼▼▼
+    public AudioClip deathSound; // 인스펙터에서 지정할 보스 죽음 소리
+    private AudioSource audioSource;
+
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        // ▼▼▼ 3. AudioSource 컴포넌트 초기화 ▼▼▼
+        audioSource = GetComponent<AudioSource>();
     }
+
+    IEnumerator DieSequence()
+    {
+        // ▼▼▼ 4. 죽는 시퀀스 시작과 동시에 사운드 재생 ▼▼▼
+        if (deathSound != null)
+        {
+            audioSource.PlayOneShot(deathSound);
+        }
+
+        isLive = false;
+        GameManager.instance.BossDied();
+        GameManager.instance.AddKill();
+
+        anim.SetBool("IsDead", true);
+        rigid.simulated = false;
+        foreach (Collider2D col in GetComponents<Collider2D>())
+        {
+            col.enabled = false;
+        }
+        if (attackCollider != null) attackCollider.enabled = false;
+
+        yield return new WaitForSeconds(3f);
+        gameObject.SetActive(false);
+    }
+
+    // --- (이하 기존 코드와 동일) ---
 
     private void OnEnable()
     {
@@ -90,24 +124,6 @@ public class Boss : MonoBehaviour
         }
     }
 
-    IEnumerator DieSequence()
-    {
-        isLive = false;
-        GameManager.instance.BossDied();
-        GameManager.instance.AddKill();
-
-        anim.SetBool("IsDead", true);
-        rigid.simulated = false;
-        foreach (Collider2D col in GetComponents<Collider2D>())
-        {
-            col.enabled = false;
-        }
-        if (attackCollider != null) attackCollider.enabled = false;
-
-        yield return new WaitForSeconds(3f);
-        gameObject.SetActive(false);
-    }
-
     IEnumerator AttackProcess()
     {
         isAttacking = true;
@@ -149,6 +165,4 @@ public class Boss : MonoBehaviour
             StartCoroutine(AttackProcess());
         }
     }
-
-   
 }

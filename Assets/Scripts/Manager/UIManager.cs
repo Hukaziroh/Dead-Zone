@@ -196,6 +196,10 @@ public class UIManager : MonoBehaviour
         if (pausePanel != null) pausePanel.SetActive(false);
         if (optionPanel != null) optionPanel.SetActive(true);
         if (upgradePanel != null) upgradePanel.SetActive(false);
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.RefreshSliderValues();
+        }
     }
     public void HideOptionPanel()
     {
