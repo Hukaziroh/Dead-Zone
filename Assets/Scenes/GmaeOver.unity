@@ -548,7 +548,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 87d3e780ab46e1243919d3a11e4de0b5, type: 3}
+  m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 87d3e780ab46e1243919d3a11e4de0b5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.1
@@ -1225,7 +1225,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: Lobby
 --- !u!222 &1705830647
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1553,7 +1553,7 @@ GameObject:
   - component: {fileID: 2118992273}
   - component: {fileID: 2118992272}
   m_Layer: 5
-  m_Name: Start
+  m_Name: Lobby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1625,7 +1625,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1906481743}
         m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
-        m_MethodName: OnStartButtonClicked
+        m_MethodName: OnLobbyButtonClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -26,7 +26,7 @@ public class StartButton : MonoBehaviour
     {
         // ▼▼▼ 4. 사운드 재생 코드 한 줄 추가 ▼▼▼
         audioSource.PlayOneShot(clickSound);
-
+        GameManager.instance.ResumeGame();
         // --- (기존 코드 유지) ---
         List<string> availableScenes = new List<string>(sceneNames);
         if (!string.IsNullOrEmpty(lastLoadedScene))
@@ -71,6 +71,6 @@ public class StartButton : MonoBehaviour
         // ▼▼▼ 4. 사운드 재생 코드 한 줄 추가 ▼▼▼
         audioSource.PlayOneShot(clickSound);
 
-       
+
     }
 }
