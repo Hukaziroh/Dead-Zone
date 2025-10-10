@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c345b6b13715f8f4ba4700f7676ceaad, type: 3}
   m_Name: Shotgun
   m_EditorClassIdentifier: 
-  weaponName: 
-  damage: 0
-  attackCooldown: 0
-  bulletLifetime: 0
-  penetrationCount: 0
-  pelletCount: 1
-  spreadAngle: 0
+  weaponName: Shotgun
+  damage: 10
+  attackCooldown: 0.5
+  bulletLifetime: 0.5
+  penetrationCount: 10
+  pelletCount: 5
+  spreadAngle: 20

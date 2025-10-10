@@ -1334,10 +1334,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 132387877495906336, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: OutputAudioMixerGroup
-      value: 
-      objectReference: {fileID: -1954842114270806733, guid: d6438bbb60c3f4048bcfb57c32814f60, type: 2}
     - target: {fileID: 152769441758618854, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
       propertyPath: m_Name
       value: Manager
@@ -1350,18 +1346,6 @@ PrefabInstance:
       propertyPath: spawner
       value: 
       objectReference: {fileID: 1538933078}
-    - target: {fileID: 2385977213504914363, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: waveText
-      value: 
-      objectReference: {fileID: 591790103}
-    - target: {fileID: 2385977213504914363, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: bossHealthBar
-      value: 
-      objectReference: {fileID: 241123806}
-    - target: {fileID: 2385977213504914363, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: killCountText
-      value: 
-      objectReference: {fileID: 591790102}
     - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
       propertyPath: waveText
       value: 
@@ -1374,6 +1358,10 @@ PrefabInstance:
       propertyPath: optionPanel
       value: 
       objectReference: {fileID: 591790105}
+    - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
+      propertyPath: upgradePanel
+      value: 
+      objectReference: {fileID: 591790106}
     - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
       propertyPath: bossHealthBar
       value: 
@@ -1490,9 +1478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMixer: {fileID: 24100000, guid: d6438bbb60c3f4048bcfb57c32814f60, type: 2}
-  masterSlider: {fileID: 0}
-  bgmSlider: {fileID: 0}
-  sfxSlider: {fileID: 0}
 --- !u!4 &488276636
 Transform:
   m_ObjectHideFlags: 0
@@ -1886,6 +1871,11 @@ GameObject:
 --- !u!1 &591790105 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 52002468956337089, guid: 12bfaae3a5c51644493ae68b20ccf939, type: 3}
+  m_PrefabInstance: {fileID: 591790101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &591790106 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7100345424599125603, guid: 12bfaae3a5c51644493ae68b20ccf939, type: 3}
   m_PrefabInstance: {fileID: 591790101}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &639652417

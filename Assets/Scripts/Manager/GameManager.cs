@@ -1,57 +1,62 @@
+// GameManager.cs (최종 수정본)
 using UnityEngine;
-using UnityEngine.SceneManagement; // 씬 관리를 위해 필수!
+using UnityEngine.SceneManagement;
 using System.Collections;
+
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
-    public Spawner spawner;
+    public static string selectedWeaponID;
 
-    [Header("# Player Info")]
+    [Header("Core Components")]
     public Player player;
-
-    [Header("# Game Object")]
     public PoolManager pool;
-    public Collider2D Bound;
+    public Spawner spawner;
+    public UIManager uiManager;
 
-    [Header("# Wave System")]
-    private int wave = 1;
-    private int killsThisWave = 0;
-    private int[] killsToNextWave = { 1, 1, 1, 1, 1 };
-    private Boss currentBoss;
-    public int bossWave = 5;
-
-    [Header("Pause & Game State")]
+    [Header("Game State")]
+    public int wave = 1;
+    public int killsThisWave = 0;
+    public int level = 0;
     public bool isGamePaused = false;
 
-    [Header("# Stat Upgrade")]
-    public int attackDamageUpgradeAmount = 10;
-    public float attackCooldownDecreaseAmount = 0.2f;
+    [Header("Wave Settings")]
+    public int[] killsToNextWave = { 10, 20, 30, 40, 50 };
+    public int bossWave = 5;
+    private Boss currentBoss;
+
+    [Header("Stat Upgrade")]
+    public int attackDamageUpgradeAmount = 5;
+    public float attackCooldownDecreaseAmount = 0.05f;
     public float moveSpeedUpgradeAmount = 0.5f;
-
-    public string[] upgradeOptions = new string[3];
-
-    public int level; // Spawner가 사용할 레벨 변수
-
 
     void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        player = FindAnyObjectByType<Player>();
+        pool = FindAnyObjectByType<PoolManager>();
+        spawner = FindAnyObjectByType<Spawner>();
+        uiManager = FindAnyObjectByType<UIManager>();
+
+        isGamePaused = false;
+        Time.timeScale = 1f;
     }
 
     void Start()
     {
-        level = 0;
-        if (UIManager.instance != null)
+        if (player != null)
         {
-            UIManager.instance.UpdateGameHUD(wave, killsThisWave, killsToNextWave, bossWave);
+            player.Initialize(this);
+            player.EquipWeaponByID(selectedWeaponID);
+        }
+
+        if (uiManager != null)
+        {
+            uiManager.Initialize(this);
+            uiManager.UpdateGameHUD(wave, killsThisWave, killsToNextWave, bossWave);
+        }
+
+        if (spawner != null)
+        {
+            spawner.Initialize(this);
         }
     }
 
@@ -59,186 +64,111 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (UIManager.instance != null && UIManager.instance.IsUpgradePanelActive())
-            {
-                return;
-            }
+            // 업그레이드 창이나 옵션 창이 열려 있을 때는 ESC로 닫지 않음 (버튼으로만 닫도록)
+            if (uiManager != null && (uiManager.IsUpgradePanelActive() || uiManager.IsOptionPanelActive())) return;
 
-            if (isGamePaused)
-            {
-                if (UIManager.instance != null && UIManager.instance.IsPausePanelActive())
-                {
-                    ResumeGame();
-                }
-            }
-            else
-            {
-                PauseGame();
-            }
+            if (isGamePaused) ResumeGame();
+            else PauseGame();
         }
     }
 
-    public void Restart()
-    {
-        ResumeGame();
-    }
-
+    // 퍼즈 메뉴를 위한 일시정지 함수
     public void PauseGame()
     {
         isGamePaused = true;
         Time.timeScale = 0f;
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.ShowPausePanel();
-        }
-        Debug.Log("Game Paused!");
+        if (uiManager != null) uiManager.ShowPausePanel();
     }
 
+    // 게임 재개 함수
     public void ResumeGame()
     {
         isGamePaused = false;
         Time.timeScale = 1f;
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.HidePausePanel();
-        }
-        Debug.Log("Game Resumed!");
+        if (uiManager != null) uiManager.HidePausePanel();
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void AddKill()
     {
-        Debug.Log("GameManager.AddKill() 호출됨! 현재 웨이브: " + wave + ", 현재 킬: " + killsThisWave);
-
         if (wave >= bossWave) return;
-
         killsThisWave++;
         if (killsThisWave >= killsToNextWave[Mathf.Min(wave - 1, killsToNextWave.Length - 1)])
         {
             NextWave();
         }
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.UpdateGameHUD(wave, killsThisWave, killsToNextWave, bossWave);
-        }
+        if (uiManager != null) uiManager.UpdateGameHUD(wave, killsThisWave, killsToNextWave, bossWave);
     }
 
     void NextWave()
     {
         wave++;
         killsThisWave = 0;
-
         level = wave - 1;
-
         if (wave == bossWave)
         {
-            if (spawner != null) spawner.StopSpawning();
-            if (spawner != null) spawner.SpawnBoss();
+            if (spawner != null)
+            {
+                spawner.StopSpawning();
+                spawner.SpawnBoss();
+            }
         }
-
-        ShowUpgradeUI();
-
-        if (UIManager.instance != null)
+        else
         {
-            UIManager.instance.UpdateGameHUD(wave, killsThisWave, killsToNextWave, bossWave);
+            ShowUpgradeUI();
         }
-        Debug.Log("WAVE " + wave + " START!");
+        if (uiManager != null) uiManager.UpdateGameHUD(wave, killsThisWave, killsToNextWave, bossWave);
     }
 
-    public void ShowBossHealthBar(Boss boss)
-    {
-        currentBoss = boss;
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.ShowBossHealthBar(boss);
-        }
-    }
-
-    public void UpdateBossHealth()
-    {
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.UpdateBossHealthBar();
-        }
-    }
-
-    // Boss.cs의 Die에서 호출 (수정됨)
-    public void BossDied()
-    {
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.HideBossHealthBar();
-        }
-        Debug.Log("BOSS KILLED! GAME CLEAR!");
-
-        // ▼▼▼ 여기에 보스 사망 후 씬 전환 코루틴 시작 ▼▼▼
-        StartCoroutine(GoToClearSceneAfterDelay(3f));
-    }
-
-    // ▼▼▼ 보스 사망 후 씬 전환을 위한 코루틴 추가 ▼▼▼
-    IEnumerator GoToClearSceneAfterDelay(float delay)
-    {
-        // 3초 동안 대기
-        yield return new WaitForSeconds(delay);
-
-        // 혹시 모를 상황을 대비해 게임 시간 정상화
-        Time.timeScale = 1f;
-
-        // "Clear" 씬으로 이동 (씬 이름이 다르다면 Inspector에서 수정하거나 여기서 직접 변경)
-        SceneManager.LoadScene("Clear");
-    }
-
-    public void PlayerDied()
-    {
-        PauseGame();
-    }
-
-    public bool GetIsGamePaused()
-    {
-        return isGamePaused;
-    }
-
+    // ▼▼▼ 이 함수를 수정합니다 ▼▼▼
     void ShowUpgradeUI()
     {
-        PauseGame();
+        // PauseGame() 대신, 시간만 멈추도록 직접 제어합니다.
+        isGamePaused = true;
+        Time.timeScale = 0f;
 
-        upgradeOptions[0] = $"공격력 증가 (+{attackDamageUpgradeAmount})";
-        upgradeOptions[1] = $"공격 속도 증가 (쿨타임 -{attackCooldownDecreaseAmount:F1}s)";
-        upgradeOptions[2] = $"이동 속도 증가 (+{moveSpeedUpgradeAmount})";
-
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.ShowUpgradePanel(upgradeOptions);
-        }
+        string[] options = { $"Attack Up", $"Attack Cool Down", $"Speed Up" };
+        if (uiManager != null) uiManager.ShowUpgradePanel(options);
     }
 
     public void SelectUpgradeOption(int optionIndex)
     {
-        if (player == null)
-        {
-            Debug.LogError("Player 스크립트가 GameManager에 할당되지 않았습니다!");
-            return;
-        }
-
+        if (player == null) return;
         switch (optionIndex)
         {
-            case 0:
-                player.UpgradeAttackDamage(attackDamageUpgradeAmount);
-                break;
-            case 1:
-                player.UpgradeAttackCooldown(attackCooldownDecreaseAmount);
-                break;
-            case 2:
-                player.UpgradeMoveSpeed(moveSpeedUpgradeAmount);
-                break;
-            default:
-                Debug.LogError("잘못된 업그레이드 옵션 인덱스: " + optionIndex);
-                break;
+            case 0: player.UpgradeAttackDamage(attackDamageUpgradeAmount); break;
+            case 1: player.UpgradeAttackCooldown(attackCooldownDecreaseAmount); break;
+            case 2: player.UpgradeMoveSpeed(moveSpeedUpgradeAmount); break;
         }
+        if (uiManager != null) uiManager.HideUpgradePanel();
 
-        if (UIManager.instance != null)
-        {
-            UIManager.instance.HideUpgradePanel();
-        }
+        // 업그레이드 선택 후에는 ResumeGame()을 호출하여 시간을 다시 흐르게 합니다.
         ResumeGame();
+    }
+
+    // --- (이하 Boss 관련 함수들은 그대로 유지) ---
+    public void ShowBossHealthBar(Boss boss)
+    {
+        currentBoss = boss;
+        if (uiManager != null) uiManager.ShowBossHealthBar(boss);
+    }
+    public void UpdateBossHealth()
+    {
+        if (uiManager != null) uiManager.UpdateBossHealthBar();
+    }
+    public void BossDied()
+    {
+        if (uiManager != null) uiManager.HideBossHealthBar();
+        StartCoroutine(GoToClearSceneAfterDelay(3f));
+    }
+    IEnumerator GoToClearSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Clear");
     }
 }

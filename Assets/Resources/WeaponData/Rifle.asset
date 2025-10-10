@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c345b6b13715f8f4ba4700f7676ceaad, type: 3}
-  m_Name: Pistol
+  m_Name: Rifle
   m_EditorClassIdentifier: 
-  weaponName: 
-  damage: 0
-  attackCooldown: 0
-  bulletLifetime: 0
-  penetrationCount: 0
+  weaponName: Rifle
+  damage: 5
+  attackCooldown: 0.2
+  bulletLifetime: 0.5
+  penetrationCount: 1
   pelletCount: 1
   spreadAngle: 0

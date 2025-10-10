@@ -13,12 +13,10 @@ public class WeaponSelectUI : MonoBehaviour
     // 버튼에서 호출될 함수. 인스펙터에서 무기 이름을 직접 지정
     public void OnWeaponSelect(string weaponID)
     {
-        if (GameManager.instance != null)
-        {
-           // GameManager.instance.selectedWeaponID = weaponID;
-        }
+        // ▼▼▼ instance를 빼고 클래스 이름으로 직접 접근합니다 ▼▼▼
+        GameManager.selectedWeaponID = weaponID;
+        Debug.Log($"[WeaponSelect] 무기 선택 완료: {GameManager.selectedWeaponID}");
 
-        // 랜덤 게임 맵으로 이동
         LoadRandomGameScene();
     }
 

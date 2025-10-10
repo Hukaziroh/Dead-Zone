@@ -78,20 +78,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3ad456129c28cb458daffaebb7cc306, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawner: {fileID: 0}
   player: {fileID: 0}
   pool: {fileID: 493979806193544874}
-  Bound: {fileID: 0}
-  bossWave: 5
+  spawner: {fileID: 0}
+  uiManager: {fileID: 2894943444522103270}
+  wave: 1
+  killsThisWave: 0
+  level: 0
   isGamePaused: 0
+  killsToNextWave: 0a000000140000001e0000002800000032000000
+  bossWave: 5
   attackDamageUpgradeAmount: 10
   attackCooldownDecreaseAmount: 0.2
   moveSpeedUpgradeAmount: 0.5
-  upgradeOptions:
-  - 
-  - 
-  - 
-  level: 0
 --- !u!1 &8347547731622690143
 GameObject:
   m_ObjectHideFlags: 0
@@ -158,11 +157,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickSound: {fileID: 8300000, guid: 25fdab8f6ca20854c8a8dadb0f76b5c2, type: 3}
-  sceneNames:
-  - autumn
-  - Spring
-  - summer
-  - winter
 --- !u!82 &132387877495906336
 AudioSource:
   m_ObjectHideFlags: 0

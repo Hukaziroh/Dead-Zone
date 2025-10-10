@@ -1,122 +1,77 @@
-// Boss.cs (죽음 소리 기능 추가 버전)
-
 using System.Collections;
 using UnityEngine;
 
-// ▼▼▼ 1. AudioSource를 사용하기 위해 RequireComponent 추가 ▼▼▼
 [RequireComponent(typeof(AudioSource))]
 public class Boss : MonoBehaviour
 {
-    public Collider2D attackCollider;
     public float speed;
     public float health;
     public float maxHealth = 1000;
-    public int damage = 10;
+    public int damage = 20;
     public Rigidbody2D target;
 
     bool isLive;
     Rigidbody2D rigid;
     Animator anim;
-    private bool isAttacking = false;
 
-    // ▼▼▼ 2. 사운드 재생을 위한 변수 추가 ▼▼▼
-    public AudioClip deathSound; // 인스펙터에서 지정할 보스 죽음 소리
+    public AudioClip deathSound;
     private AudioSource audioSource;
+
+    // ▼▼▼ GameManager를 담을 변수 선언 ▼▼▼
+    private GameManager gameManager;
 
     private void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        // ▼▼▼ 3. AudioSource 컴포넌트 초기화 ▼▼▼
         audioSource = GetComponent<AudioSource>();
+        // ▼▼▼ 씬에서 GameManager를 찾아 변수에 할당 ▼▼▼
+        gameManager = FindAnyObjectByType<GameManager>();
     }
-
-    IEnumerator DieSequence()
-    {
-        // ▼▼▼ 4. 죽는 시퀀스 시작과 동시에 사운드 재생 ▼▼▼
-        if (deathSound != null)
-        {
-            audioSource.PlayOneShot(deathSound);
-        }
-
-        isLive = false;
-        GameManager.instance.BossDied();
-        GameManager.instance.AddKill();
-
-        anim.SetBool("IsDead", true);
-        rigid.simulated = false;
-        foreach (Collider2D col in GetComponents<Collider2D>())
-        {
-            col.enabled = false;
-        }
-        if (attackCollider != null) attackCollider.enabled = false;
-
-        yield return new WaitForSeconds(3f);
-        gameObject.SetActive(false);
-    }
-
-    // --- (이하 기존 코드와 동일) ---
 
     private void OnEnable()
     {
-        if (GameManager.instance != null && GameManager.instance.player != null)
-        {
-            target = GameManager.instance.player.GetComponent<Rigidbody2D>();
-        }
-        else
-        {
-            target = null;
-        }
-
+        // ▼▼▼ gameManager 변수를 통해 player에 접근 ▼▼▼
+        target = gameManager.player?.GetComponent<Rigidbody2D>();
         health = maxHealth;
         isLive = true;
         rigid.simulated = true;
+        GetComponent<Collider2D>().enabled = true;
 
-        foreach (Collider2D col in GetComponents<Collider2D>())
-        {
-            col.enabled = true;
-        }
-        if (attackCollider != null)
-        {
-            attackCollider.enabled = false;
-        }
-
-        gameObject.layer = LayerMask.NameToLayer("SpawningEnemy");
-        StartCoroutine(BecomeSolidAfterDelay());
-
-        GameManager.instance.ShowBossHealthBar(this);
-    }
-
-    IEnumerator BecomeSolidAfterDelay()
-    {
-        yield return new WaitForSeconds(2f);
-        gameObject.layer = LayerMask.NameToLayer("Enemy");
+        // ▼▼▼ gameManager 변수를 통해 함수 호출 ▼▼▼
+        gameManager.ShowBossHealthBar(this);
     }
 
     private void FixedUpdate()
     {
-        if (!isLive || target == null || anim.GetBool("IsAttack"))
+        if (!isLive || target == null)
         {
             rigid.linearVelocity = Vector2.zero;
             return;
         }
-        Vector2 dirVec = target.position - rigid.position;
-        Vector2 nextVec = dirVec.normalized * speed * Time.fixedDeltaTime;
+        Vector2 dirVec = (target.position - rigid.position).normalized;
+        Vector2 nextVec = dirVec * speed * Time.fixedDeltaTime;
         rigid.MovePosition(rigid.position + nextVec);
         rigid.linearVelocity = Vector2.zero;
-        if (dirVec.sqrMagnitude > 0.01f)
+
+        anim.SetFloat("MoveX", dirVec.x);
+        anim.SetFloat("MoveY", dirVec.y);
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && isLive)
         {
-            anim.SetFloat("MoveX", dirVec.normalized.x);
-            anim.SetFloat("MoveY", dirVec.normalized.y);
+            collision.gameObject.GetComponent<Player>().TakeDamage(damage);
         }
     }
 
     public void TakeDamage(int damage)
     {
         if (!isLive) return;
-
         health -= damage;
-        GameManager.instance.UpdateBossHealth();
+        // ▼▼▼ gameManager 변수를 통해 함수 호출 ▼▼▼
+        gameManager.UpdateBossHealth();
 
         if (health <= 0)
         {
@@ -124,45 +79,17 @@ public class Boss : MonoBehaviour
         }
     }
 
-    IEnumerator AttackProcess()
+    IEnumerator DieSequence()
     {
-        isAttacking = true;
-        rigid.linearVelocity = Vector2.zero;
-        anim.SetBool("IsAttack", true);
+        isLive = false;
+        if (deathSound != null) audioSource.PlayOneShot(deathSound);
 
-        yield return new WaitForSeconds(0.5f);
-
-        if (attackCollider != null)
-        {
-            attackCollider.enabled = true;
-
-            Collider2D[] hitPlayers = Physics2D.OverlapCircleAll(attackCollider.bounds.center, attackCollider.bounds.extents.x, LayerMask.GetMask("Player"));
-            foreach (Collider2D hit in hitPlayers)
-            {
-                if (hit.CompareTag("Player"))
-                {
-                    Player player = hit.GetComponent<Player>();
-                    if (player != null)
-                    {
-                        player.TakeDamage(damage);
-                    }
-                }
-            }
-        }
-
-        yield return new WaitForSeconds(0.2f);
-
-        if (attackCollider != null) attackCollider.enabled = false;
-
-        anim.SetBool("IsAttack", false);
-        isAttacking = false;
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player") && isLive && !isAttacking)
-        {
-            StartCoroutine(AttackProcess());
-        }
+        // ▼▼▼ gameManager 변수를 통해 함수 호출 ▼▼▼
+        gameManager.BossDied();
+        anim.SetTrigger("IsDead");
+        rigid.simulated = false;
+        GetComponent<Collider2D>().enabled = false;
+        yield return new WaitForSeconds(3f);
+        gameObject.SetActive(false);
     }
 }

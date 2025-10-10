@@ -1953,6 +1953,11 @@ Transform:
   - {fileID: 1005000653}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &309054249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7100345424599125603, guid: 12bfaae3a5c51644493ae68b20ccf939, type: 3}
+  m_PrefabInstance: {fileID: 10079930}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &492534006
 GameObject:
   m_ObjectHideFlags: 0
@@ -175639,6 +175644,10 @@ PrefabInstance:
       propertyPath: optionPanel
       value: 
       objectReference: {fileID: 10079935}
+    - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
+      propertyPath: upgradePanel
+      value: 
+      objectReference: {fileID: 309054249}
     - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
       propertyPath: bossHealthBar
       value: 

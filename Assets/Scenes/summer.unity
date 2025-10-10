@@ -25250,6 +25250,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2142578372}
     - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
+      propertyPath: upgradePanel
+      value: 
+      objectReference: {fileID: 2128515999}
+    - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
       propertyPath: bossHealthBar
       value: 
       objectReference: {fileID: 2142578368}
@@ -118974,9 +118978,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMixer: {fileID: 24100000, guid: d6438bbb60c3f4048bcfb57c32814f60, type: 2}
-  masterSlider: {fileID: 1962844952}
-  bgmSlider: {fileID: 1962844951}
-  sfxSlider: {fileID: 1962844950}
 --- !u!4 &1568290230
 Transform:
   m_ObjectHideFlags: 0
@@ -128315,39 +128316,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &1962844950 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2817267026064711010, guid: 12bfaae3a5c51644493ae68b20ccf939, type: 3}
-  m_PrefabInstance: {fileID: 2142578367}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1962844951 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5003842161307672734, guid: 12bfaae3a5c51644493ae68b20ccf939, type: 3}
-  m_PrefabInstance: {fileID: 2142578367}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1962844952 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7061047335844528660, guid: 12bfaae3a5c51644493ae68b20ccf939, type: 3}
-  m_PrefabInstance: {fileID: 2142578367}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1972779689
 GameObject:
   m_ObjectHideFlags: 0
@@ -128609,6 +128577,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2128515999 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7100345424599125603, guid: 12bfaae3a5c51644493ae68b20ccf939, type: 3}
+  m_PrefabInstance: {fileID: 2142578367}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2142578367
 PrefabInstance:
   m_ObjectHideFlags: 0
