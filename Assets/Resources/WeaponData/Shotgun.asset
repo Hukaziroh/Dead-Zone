@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Shotgun
   m_EditorClassIdentifier: 
   weaponName: Shotgun
+  gunshotSound: {fileID: 8300000, guid: 2ce7cad278e764243a605dc8224c27b3, type: 3}
   damage: 10
   attackCooldown: 0.5
-  bulletLifetime: 0.5
+  bulletLifetime: 0.15
   penetrationCount: 10
   pelletCount: 5
   spreadAngle: 20

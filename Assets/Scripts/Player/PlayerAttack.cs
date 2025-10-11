@@ -6,7 +6,7 @@ public class PlayerAttack : MonoBehaviour
     Animator anim;
     Camera cam;
     private AudioSource audioSource;
-    public AudioClip fireSound;
+    //public AudioClip fireSound;
     public int bulletPoolIndex = 4;
     public Transform playerCenterPoint;
 
@@ -37,12 +37,11 @@ public class PlayerAttack : MonoBehaviour
     {
         currentWeapon = weaponData;
         lastAttackTime = -currentWeapon.attackCooldown;
+        Debug.Log($"[PlayerAttack] '{currentWeapon.weaponName}' 장착! (데미지: {currentWeapon.damage}, 쿨타임: {currentWeapon.attackCooldown})");
     }
 
     void Update()
     {
-        // ▼▼▼ 이 부분을 수정합니다! GameManager.instance -> gameManager ▼▼▼
-
         if (gameManager != null && gameManager.isGamePaused) return;
         if (currentWeapon == null) return;
 
@@ -66,7 +65,11 @@ public class PlayerAttack : MonoBehaviour
 
     void FireBullet(Vector2 direction, Vector3 muzzleWorldPosition)
     {
-        if (fireSound != null) audioSource.PlayOneShot(fireSound);
+        // ▼▼▼ 이 부분을 수정하여 currentWeapon의 사운드를 재생하도록 합니다 ▼▼▼
+        if (currentWeapon.gunshotSound != null)
+        {
+            audioSource.PlayOneShot(currentWeapon.gunshotSound);
+        }
 
         for (int i = 0; i < currentWeapon.pelletCount; i++)
         {
