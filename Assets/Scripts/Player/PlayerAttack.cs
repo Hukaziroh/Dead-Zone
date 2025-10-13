@@ -63,9 +63,10 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
+    // PlayerAttack.cs 의 FireBullet 함수만 수정
+
     void FireBullet(Vector2 direction, Vector3 muzzleWorldPosition)
     {
-        // ▼▼▼ 이 부분을 수정하여 currentWeapon의 사운드를 재생하도록 합니다 ▼▼▼
         if (currentWeapon.gunshotSound != null)
         {
             audioSource.PlayOneShot(currentWeapon.gunshotSound);
@@ -83,8 +84,11 @@ public class PlayerAttack : MonoBehaviour
             if (bulletScript != null)
             {
                 bulletScript.damage = currentWeapon.damage;
-                bulletScript.lifetime = currentWeapon.bulletLifetime;
-                bulletScript.Init(fireDirection, currentWeapon.penetrationCount);
+                // ▼▼▼ 이 줄은 Init 함수로 역할이 넘어갔으므로 삭제합니다. ▼▼▼
+                // bulletScript.lifetime = currentWeapon.bulletLifetime; 
+
+                // ▼▼▼ Init 함수에 lifetime을 함께 전달합니다. ▼▼▼
+                bulletScript.Init(fireDirection, currentWeapon.penetrationCount, currentWeapon.bulletLifetime);
             }
         }
     }

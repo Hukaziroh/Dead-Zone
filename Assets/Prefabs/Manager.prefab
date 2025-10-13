@@ -86,10 +86,10 @@ MonoBehaviour:
   killsThisWave: 0
   level: 0
   isGamePaused: 0
-  killsToNextWave: 0a000000140000001e0000002800000032000000
+  killsToNextWave: 0100000002000000030000000400000005000000
   bossWave: 5
-  attackDamageUpgradeAmount: 10
-  attackCooldownDecreaseAmount: 0.2
+  attackDamageUpgradeAmount: 5
+  attackCooldownDecreaseAmount: 0.05
   moveSpeedUpgradeAmount: 0.5
 --- !u!1 &8347547731622690143
 GameObject:

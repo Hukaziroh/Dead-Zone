@@ -193,7 +193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackCollider: {fileID: 5872846761877392975}
   speed: 2
-  health: 60
+  health: 100
   maxHealth: 0
   damage: 100
   target: {fileID: 0}

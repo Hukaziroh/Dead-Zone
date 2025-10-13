@@ -109,18 +109,10 @@ public class GameManager : MonoBehaviour
         wave++;
         killsThisWave = 0;
         level = wave - 1;
-        if (wave == bossWave)
-        {
-            if (spawner != null)
-            {
-                spawner.StopSpawning();
-                spawner.SpawnBoss();
-            }
-        }
-        else
-        {
-            ShowUpgradeUI();
-        }
+
+        // 보스 웨이브든 아니든, 일단 업그레이드 UI를 보여주는 역할만 합니다.
+        ShowUpgradeUI();
+
         if (uiManager != null) uiManager.UpdateGameHUD(wave, killsThisWave, killsToNextWave, bossWave);
     }
 
@@ -138,16 +130,36 @@ public class GameManager : MonoBehaviour
     public void SelectUpgradeOption(int optionIndex)
     {
         if (player == null) return;
+
+        // 1. 선택한 능력치를 업그레이드합니다.
         switch (optionIndex)
         {
             case 0: player.UpgradeAttackDamage(attackDamageUpgradeAmount); break;
             case 1: player.UpgradeAttackCooldown(attackCooldownDecreaseAmount); break;
             case 2: player.UpgradeMoveSpeed(moveSpeedUpgradeAmount); break;
         }
+
+        // 2. 업그레이드 UI를 닫습니다.
         if (uiManager != null) uiManager.HideUpgradePanel();
 
-        // 업그레이드 선택 후에는 ResumeGame()을 호출하여 시간을 다시 흐르게 합니다.
-        ResumeGame();
+        // 3. 업그레이드가 끝난 후, 보스 웨이브인지 확인합니다.
+        if (wave == bossWave)
+        {
+            // 보스 웨이브가 맞다면, 여기서 보스를 소환합니다.
+            if (spawner != null)
+            {
+                spawner.StopSpawning();
+                spawner.SpawnBoss();
+            }
+            // 보스전 시작을 위해 게임을 재개합니다.
+            isGamePaused = false;
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            // 일반 웨이브라면 평소처럼 게임을 재개합니다.
+            ResumeGame();
+        }
     }
 
     // --- (이하 Boss 관련 함수들은 그대로 유지) ---

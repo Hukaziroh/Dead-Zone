@@ -237,10 +237,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 322960cef902c0f43898a562233d17a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackCollider: {fileID: 7636894594114407747}
-  speed: 1
+  speed: 1.5
   health: 0
-  maxHealth: 1000
+  maxHealth: 3000
   damage: 100
   target: {fileID: 0}
   deathSound: {fileID: 8300000, guid: a50ef9d1c453b2d4cb57103e8d88dc66, type: 3}

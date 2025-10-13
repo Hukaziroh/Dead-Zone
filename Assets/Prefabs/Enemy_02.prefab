@@ -194,7 +194,7 @@ MonoBehaviour:
   attackCollider: {fileID: 8712523532998171946}
   speed: 1
   health: 0
-  maxHealth: 30
+  maxHealth: 50
   damage: 100
   target: {fileID: 0}
   deathSound: {fileID: 8300000, guid: ac8b84e9042b4684089dfa00059227cd, type: 3}
