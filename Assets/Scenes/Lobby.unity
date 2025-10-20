@@ -1195,18 +1195,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Manager
       objectReference: {fileID: 0}
-    - target: {fileID: 2385977213504914363, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2385977213504914363, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: spawner
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: waveText
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
       propertyPath: pausePanel
       value: 
@@ -1219,14 +1207,6 @@ PrefabInstance:
       propertyPath: upgradePanel
       value: 
       objectReference: {fileID: 604466324}
-    - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: bossHealthBar
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2894943444522103270, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
-      propertyPath: killCountText
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6887229502502350300, guid: 0aac97f63a00ce64e8313590342c4dfa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
