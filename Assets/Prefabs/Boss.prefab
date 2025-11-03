@@ -242,6 +242,11 @@ MonoBehaviour:
   maxHealth: 3000
   damage: 100
   target: {fileID: 0}
+  projectilePrefab: {fileID: 5148422685871638266, guid: 6c92a594f9808cf40aabae29548011b0, type: 3}
+  guidedAttackInterval: 3
+  fullCircleBullets: 12
+  fullCircleAttackInterval: 2
+  projectileSpawnDistance: 1
   deathSound: {fileID: 8300000, guid: a50ef9d1c453b2d4cb57103e8d88dc66, type: 3}
 --- !u!82 &5277378122870226320
 AudioSource:
