@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            Debug.LogError($"[Player] '{weaponID}' ¹«±â µ¥ÀÌÅÍ¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù!");
+            Debug.LogError($"[Player] '{weaponID}' ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ Ã£ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½!");
         }
     }
 
@@ -61,7 +61,18 @@ public class Player : MonoBehaviour
         anim.SetBool("IsDead", true);
         playerMovement.enabled = false;
         playerAttack.enabled = false;
-        GetComponent<Collider2D>().enabled = false;
+        Rigidbody2D rb = GetComponent<Rigidbody2D>();
+        if (rb != null)
+        {
+            rb.simulated = false;
+            rb.linearVelocity = Vector2.zero; // È¤ï¿½ï¿½ ï¿½ï¿½ ï¿½Óµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+        }
+
+        // 2. ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ö´ï¿½ 'ï¿½ï¿½ï¿½' ï¿½Ý¶ï¿½ï¿½Ì´ï¿½ï¿½ï¿½ Ã£ï¿½Æ¼ï¿½ ï¿½ï¿½È°ï¿½ï¿½È­ï¿½Õ´Ï´ï¿½.
+        foreach (Collider2D col in GetComponents<Collider2D>())
+        {
+            col.enabled = false;
+        }
         yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("GmaeOver");
     }

@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Rifle
   gunshotSound: {fileID: 8300000, guid: 35f398a5a90bd8c4189dc546f5b48de4, type: 3}
-  damage: 5
-  attackCooldown: 0.2
+  damage: 8
+  attackCooldown: 0.1
   bulletLifetime: 0.25
   penetrationCount: 1
   pelletCount: 1

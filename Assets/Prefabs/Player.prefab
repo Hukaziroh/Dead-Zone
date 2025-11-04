@@ -294,13 +294,13 @@ MonoBehaviour:
   - spriteTypes: 0000000001000000
     spawnTime: 1.5
   - spriteTypes: 0000000002000000
-    spawnTime: 1
+    spawnTime: 1.2
   - spriteTypes: 0200000003000000
-    spawnTime: 1
+    spawnTime: 0.9
   - spriteTypes: 000000000200000004000000
-    spawnTime: 1
+    spawnTime: 0.7
   - spriteTypes: 03000000
-    spawnTime: 1
+    spawnTime: 0.5
   tilemapLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -464,7 +464,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66806d4c16afb6645b8de1483fa7d9fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 10
   currentHealth: 0
 --- !u!114 &6564096246570589791
 MonoBehaviour:

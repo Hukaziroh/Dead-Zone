@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Pistol
   gunshotSound: {fileID: 8300000, guid: 105df966aad906647b2b43a7fedf93e2, type: 3}
-  damage: 10
+  damage: 15
   attackCooldown: 0.5
   bulletLifetime: 0.3
   penetrationCount: 1

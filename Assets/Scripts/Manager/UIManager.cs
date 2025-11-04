@@ -73,9 +73,11 @@ public class UIManager : MonoBehaviour
     public void ShowOptionPanel()
     {
         PlayClickSound();
-        pausePanel.SetActive(false);
-        optionPanel.SetActive(true);
-        if (AudioManager.instance != null) AudioManager.instance.RefreshSliderValues();
+        if (pausePanel) pausePanel.SetActive(false);
+        if (optionPanel) optionPanel.SetActive(true);
+
+        // ▼▼▼ 이 함수의 이름을 RefreshOptionPanelUI로 변경합니다 ▼▼▼
+        if (AudioManager.instance != null) AudioManager.instance.RefreshOptionPanelUI();
     }
 
     public void HideOptionPanel()
