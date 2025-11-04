@@ -13,7 +13,6 @@ public class AudioManager : MonoBehaviour
     private Slider sfxSlider;
     private Toggle fullscreenToggle;
 
-    // ▼▼▼ 기본 창 모드 해상도를 설정합니다 ▼▼▼
     public int defaultWindowWidth = 1280;
     public int defaultWindowHeight = 720;
 
@@ -33,15 +32,19 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         ApplySavedVolumeToMixer();
-        LoadScreenSettings(); // ▼▼▼ 함수 이름 변경 (LoadAndApplyScreenSettings -> LoadScreenSettings)
+        LoadScreenSettings();
     }
 
     public void RefreshOptionPanelUI()
     {
         GameObject optionPanel = GameObject.Find("OptionPanel");
-        if (optionPanel == null) return;
+        if (optionPanel == null)
+        {
+            Debug.LogError("[AudioManager] OptionPanel을 씬에서 찾을 수 없습니다!");
+            return;
+        }
 
-        // ... (슬라이더 관련 코드는 기존과 동일) ...
+        // --- 슬라이더 찾기 및 연결 ---
         masterSlider = optionPanel.transform.Find("MasterVolumeSlider")?.GetComponent<Slider>();
         bgmSlider = optionPanel.transform.Find("BGMVolumeSlider")?.GetComponent<Slider>();
         sfxSlider = optionPanel.transform.Find("SFXVolumeSlider")?.GetComponent<Slider>();
@@ -61,9 +64,10 @@ public class AudioManager : MonoBehaviour
             sfxSlider.onValueChanged.RemoveAllListeners();
             sfxSlider.onValueChanged.AddListener(SetSFXVolume);
         }
+        // 저장된 볼륨 값을 슬라이더에 시각적으로 적용
         ApplySavedVolumeToSliders();
 
-        // --- (토글 관련 코드는 기존과 동일) ---
+        // --- 토글 찾기 및 연결 ---
         fullscreenToggle = optionPanel.transform.Find("FullscreenToggle")?.GetComponent<Toggle>();
         if (fullscreenToggle != null)
         {
@@ -73,15 +77,52 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    // --- (볼륨 함수들은 기존과 동일) ---
-    public void SetMasterVolume(float volume) { /* ... */ }
-    public void SetBGMVolume(float volume) { /* ... */ }
-    public void SetSFXVolume(float volume) { /* ... */ }
-    private void ApplySavedVolumeToSliders() { /* ... */ }
-    private void ApplySavedVolumeToMixer() { /* ... */ }
+    // --- ▼▼▼ 여기에 빠졌던 볼륨 함수들을 모두 채워넣었습니다 ▼▼▼ ---
 
+    public void SetMasterVolume(float volume)
+    {
+        // 슬라이더 값(0.0001~1)을 데시벨(-80~0)로 변환
+        mainMixer.SetFloat("MasterVolume", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("MasterVolume", volume); // 변경된 값 저장
+    }
 
-    // --- ▼▼▼ 화면 설정 함수들 수정 ▼▼▼ ---
+    public void SetBGMVolume(float volume)
+    {
+        mainMixer.SetFloat("BGMVolume", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("BGMVolume", volume);
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        mainMixer.SetFloat("SFXVolume", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("SFXVolume", volume);
+    }
+
+    // 저장된 값을 불러와 슬라이더 '위치'에 적용
+    private void ApplySavedVolumeToSliders()
+    {
+        float masterVol = PlayerPrefs.GetFloat("MasterVolume", 1f);
+        float bgmVol = PlayerPrefs.GetFloat("BGMVolume", 1f);
+        float sfxVol = PlayerPrefs.GetFloat("SFXVolume", 1f);
+
+        if (masterSlider) masterSlider.value = masterVol;
+        if (bgmSlider) bgmSlider.value = bgmVol;
+        if (sfxSlider) sfxSlider.value = sfxVol;
+    }
+
+    // 저장된 값을 불러와 실제 오디오 '믹서'에 적용
+    private void ApplySavedVolumeToMixer()
+    {
+        float masterVol = PlayerPrefs.GetFloat("MasterVolume", 1f);
+        float bgmVol = PlayerPrefs.GetFloat("BGMVolume", 1f);
+        float sfxVol = PlayerPrefs.GetFloat("SFXVolume", 1f);
+
+        mainMixer.SetFloat("MasterVolume", Mathf.Log10(masterVol) * 20);
+        mainMixer.SetFloat("BGMVolume", Mathf.Log10(bgmVol) * 20);
+        mainMixer.SetFloat("SFXVolume", Mathf.Log10(sfxVol) * 20);
+    }
+
+    // --- ▼▼▼ 화면 설정 함수들 (기존과 동일) ▼▼▼ ---
 
     private void LoadScreenSettings()
     {
@@ -89,27 +130,22 @@ public class AudioManager : MonoBehaviour
 
         if (isFullscreen)
         {
-            // 전체 화면 (테두리 없는 창 모드)으로 설정
             Screen.SetResolution(Screen.currentResolution.width, Screen.currentResolution.height, FullScreenMode.FullScreenWindow);
         }
         else
         {
-            // 지정된 기본 해상도의 창 모드로 설정
             Screen.SetResolution(defaultWindowWidth, defaultWindowHeight, FullScreenMode.Windowed);
         }
     }
 
-    // 토글 클릭 시 호출될 함수
     public void SetFullscreen(bool isFullscreen)
     {
         if (isFullscreen)
         {
-            // 전체 화면 (테두리 없는 창 모드)으로 전환
             Screen.SetResolution(Screen.currentResolution.width, Screen.currentResolution.height, FullScreenMode.FullScreenWindow);
         }
         else
         {
-            // 지정된 기본 해상도의 창 모드로 전환
             Screen.SetResolution(defaultWindowWidth, defaultWindowHeight, FullScreenMode.Windowed);
         }
 
