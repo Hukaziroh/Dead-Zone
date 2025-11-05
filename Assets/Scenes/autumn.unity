@@ -33496,6 +33496,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMixer: {fileID: 24100000, guid: d6438bbb60c3f4048bcfb57c32814f60, type: 2}
+  defaultWindowWidth: 1280
+  defaultWindowHeight: 720
 --- !u!4 &1073566328
 Transform:
   m_ObjectHideFlags: 0

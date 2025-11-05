@@ -294,11 +294,11 @@ MonoBehaviour:
   - spriteTypes: 0000000001000000
     spawnTime: 1.5
   - spriteTypes: 0000000002000000
-    spawnTime: 1.2
+    spawnTime: 1.3
   - spriteTypes: 0200000003000000
-    spawnTime: 0.9
+    spawnTime: 1
   - spriteTypes: 000000000200000004000000
-    spawnTime: 0.7
+    spawnTime: 0.8
   - spriteTypes: 03000000
     spawnTime: 0.5
   tilemapLayer:
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   moveThreshold: 0.05
-  baseSpeed: 3
+  baseSpeed: 3.5
 --- !u!114 &7317366256135304331
 MonoBehaviour:
   m_ObjectHideFlags: 0
