@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour
     int maxSpawnAttempts = 10;
     private GameManager gameManager;
 
-    // GameManager°¡ È£ÃâÇÏ¿© ÃÊ±âÈ­
+    // GameManagerë¥¼ í˜¸ì¶œí•˜ì—¬ ì´ˆê¸°í™”
     public void Initialize(GameManager gm)
     {
         gameManager = gm;
@@ -45,47 +45,39 @@ public class Spawner : MonoBehaviour
     void Spawn(int level)
     {
         Transform randomPoint = FindValidSpawnPoint();
-        if (randomPoint == null) return;
+        if (randomPoint == null) return; // ì•ˆì „ êµ¬ì—­ íƒìƒ‰ ì‹¤íŒ¨ ì‹œ ìŠ¤í° ì·¨ì†Œ (ì˜¤ë²„í—¤ë“œ ë°©ì§€)
 
         SpawnData currentSpawnData = spawnData[level];
-        int[] enemyTypes = currentSpawnData.spriteTypes;
-        int randomEnemyType = enemyTypes[Random.Range(0, enemyTypes.Length)];
+        int randomEnemyType = currentSpawnData.spriteTypes[Random.Range(0, currentSpawnData.spriteTypes.Length)];
 
+        // ì˜¤ë¸Œì íŠ¸ í’€ë§ì„ ì‚¬ìš©í•´ ë©”ëª¨ë¦¬ ìµœì í™”
         GameObject enemyObject = gameManager.pool.Get(randomEnemyType);
         enemyObject.transform.position = randomPoint.position;
     }
-    // ¡å¡å¡å »ç¿ëÀÚ´ÔÀÇ ±âÁ¸ ½ºÆù À§Ä¡ °ËÁõ ·ÎÁ÷ (±×´ë·Î À¯Áö) ¡å¡å¡å
+    
     Transform FindValidSpawnPoint()
     {
+        // ë¬´í•œ ë£¨í”„(í”„ë¦¬ì§•) ë°©ì§€ë¥¼ ìœ„í•œ ìµœëŒ€ 10íšŒ íƒìƒ‰ ì œí•œ
         for (int i = 0; i < maxSpawnAttempts; i++)
         {
             Transform randomPoint = spawnPoint[Random.Range(1, spawnPoint.Length)];
 
-            Debug.Log("½ºÆù ½Ãµµ À§Ä¡: " + randomPoint.position + " (½Ãµµ #" + (i + 1) + ")");
-
+            // í•´ë‹¹ ì¢Œí‘œì˜ íƒ€ì¼ë§µ ë¬¼ë¦¬ ì¶©ëŒì²´ ë‹¨ì¼ ê²€ì‚¬
             Collider2D hit = Physics2D.OverlapPoint(randomPoint.position, tilemapLayer);
 
             if (hit != null)
             {
-                Debug.Log("  -> °¨ÁöµÈ ¿ÀºêÁ§Æ®: " + hit.gameObject.name + ", ÅÂ±×: " + hit.tag + ", ·¹ÀÌ¾î: " + LayerMask.LayerToName(hit.gameObject.layer));
-
+                // ì´ë™ ë¶ˆê°€ ì§€ì—­(ë²½, ë¬¼)ì¸ ê²½ìš° ê¸°ê°í•˜ê³  ë‹¤ìŒ ìœ„ì¹˜ íƒìƒ‰
                 if (hit.CompareTag("Wall") || hit.CompareTag("Water"))
                 {
-                    Debug.LogWarning("  -> " + hit.gameObject.name + " (" + hit.tag + ") ÀÌ(°¡) ½ºÆù ºÒ°¡ Áö¿ªÀÔ´Ï´Ù. ´ÙÀ½ À§Ä¡¸¦ ½ÃµµÇÕ´Ï´Ù.");
                     continue;
                 }
             }
-            else
-            {
-                Debug.Log("  -> ½ºÆù ÁöÁ¡¿¡¼­ ¾Æ¹« Äİ¶óÀÌ´õµµ °¨ÁöµÇÁö ¾Ê¾Ò½À´Ï´Ù. (½ºÆù °¡´É)");
-            }
 
-            Debug.Log("<color=green>  -> À¯È¿ÇÑ ½ºÆù À§Ä¡¸¦ Ã£¾Ò½À´Ï´Ù: " + randomPoint.position + "</color>");
-            return randomPoint;
+            return randomPoint; // ê²€ì¦ëœ ì•ˆì „í•œ ì¢Œí‘œ ë°˜í™˜
         }
 
-        Debug.LogError("<color=red>¸ğµç ½ºÆù ½Ãµµ(10¹ø)°¡ ½ÇÆĞÇß½À´Ï´Ù. À¯È¿ÇÑ ½ºÆù À§Ä¡¸¦ Ã£Áö ¸øÇß½À´Ï´Ù.</color>");
-        return null;
+        return null; // 10íšŒ ëª¨ë‘ ì‹¤íŒ¨ ì‹œ null ë°˜í™˜
     }
 
     public void StopSpawning()

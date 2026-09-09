@@ -24,6 +24,9 @@ public class PlayerAttack : MonoBehaviour
     public Vector2 offsetDownRight = new Vector2(0.35f, -0.35f);
     public Vector2 offsetDownLeft = new Vector2(-0.35f, -0.35f);
 
+    // 8ë°©í–¥ ì˜¤í”„ì…‹ ë°°ì—´ ìºì‹±ìš©
+    private Vector2[] muzzleOffsets;
+
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -31,13 +34,19 @@ public class PlayerAttack : MonoBehaviour
         cam = Camera.main;
         playerCenterPoint = this.transform;
         gameManager = FindAnyObjectByType<GameManager>();
+
+        // ë°°ì—´ ì´ˆê¸°í™” (0: ì˜¤ë¥¸ìª½ë¶€í„° ë°˜ì‹œê³„ ë°©í–¥ìœ¼ë¡œ 45ë„ì”© ì¦ê°€)
+        muzzleOffsets = new Vector2[] {
+            offsetRight, offsetUpRight, offsetUp, offsetUpLeft,
+            offsetLeft, offsetDownLeft, offsetDown, offsetDownRight
+        };
     }
 
     public void EquipWeapon(WeaponData weaponData)
     {
         currentWeapon = weaponData;
         lastAttackTime = -currentWeapon.attackCooldown;
-        Debug.Log($"[PlayerAttack] '{currentWeapon.weaponName}' ÀåÂø! (µ¥¹ÌÁö: {currentWeapon.damage}, ÄğÅ¸ÀÓ: {currentWeapon.attackCooldown})");
+        Debug.Log($"[PlayerAttack] '{currentWeapon.weaponName}' ì¥ì°©! (ë°ë¯¸ì§€: {currentWeapon.damage}, ì¿¨íƒ€ì„: {currentWeapon.attackCooldown})");
     }
 
     void Update()
@@ -63,8 +72,6 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    // PlayerAttack.cs ÀÇ FireBullet ÇÔ¼ö¸¸ ¼öÁ¤
-
     void FireBullet(Vector2 direction, Vector3 muzzleWorldPosition)
     {
         if (currentWeapon.gunshotSound != null)
@@ -72,23 +79,24 @@ public class PlayerAttack : MonoBehaviour
             audioSource.PlayOneShot(currentWeapon.gunshotSound);
         }
 
+        // í ë¦¿(ì‚°íƒ„) ê°œìˆ˜ë§Œí¼ íƒ„í™˜ ë™ì‹œ ë°œì‚¬
         for (int i = 0; i < currentWeapon.pelletCount; i++)
         {
             GameObject bulletObject = gameManager.pool.Get(bulletPoolIndex);
             bulletObject.transform.position = muzzleWorldPosition;
 
-            Quaternion randomRotation = Quaternion.Euler(0, 0, Random.Range(-currentWeapon.spreadAngle / 2, currentWeapon.spreadAngle / 2));
+            // ì§€ì •ëœ ë°©ì‚¬ê°(Spread Angle) ë‚´ì—ì„œ ëœë¤ Zì¶• íšŒì „ê°’ ìƒì„±
+            Quaternion randomRotation = Quaternion.Euler(0, 0, Random.Range(-currentWeapon.spreadAngle / 2f, currentWeapon.spreadAngle / 2f));
+            
+            // ê¸°ì¤€ ë°©í–¥ì— íšŒì „ê°’ì„ ê³±í•´ ìƒˆë¡œìš´ ë°œì‚¬ ë°©í–¥ ë„ì¶œ
             Vector2 fireDirection = randomRotation * direction;
 
             Bullet bulletScript = bulletObject.GetComponent<Bullet>();
             if (bulletScript != null)
             {
                 bulletScript.damage = currentWeapon.damage;
-                // ¡å¡å¡å ÀÌ ÁÙÀº Init ÇÔ¼ö·Î ¿ªÇÒÀÌ ³Ñ¾î°¬À¸¹Ç·Î »èÁ¦ÇÕ´Ï´Ù. ¡å¡å¡å
-                // bulletScript.lifetime = currentWeapon.bulletLifetime; 
-
-                // ¡å¡å¡å Init ÇÔ¼ö¿¡ lifetimeÀ» ÇÔ²² Àü´ŞÇÕ´Ï´Ù. ¡å¡å¡å
-                bulletScript.Init(fireDirection, currentWeapon.penetrationCount, currentWeapon.bulletLifetime);
+                bulletScript.lifetime = currentWeapon.bulletLifetime;
+                bulletScript.Init(fireDirection, currentWeapon.penetrationCount);
             }
         }
     }
@@ -96,17 +104,14 @@ public class PlayerAttack : MonoBehaviour
     private Vector2 CalculateMuzzleOffset(Vector2 mouseDir)
     {
         float angle = Vector2.SignedAngle(Vector2.right, mouseDir);
-        if (angle < 0) angle += 360;
+        if (angle < 0) angle += 360f;
 
-        if (angle >= 337.5f || angle < 22.5f) return offsetRight;
-        if (angle >= 22.5f && angle < 67.5f) return offsetUpRight;
-        if (angle >= 67.5f && angle < 112.5f) return offsetUp;
-        if (angle >= 112.5f && angle < 157.5f) return offsetUpLeft;
-        if (angle >= 157.5f && angle < 202.5f) return offsetLeft;
-        if (angle >= 202.5f && angle < 247.5f) return offsetDownLeft;
-        if (angle >= 247.5f && angle < 292.5f) return offsetDown;
-        return offsetDownRight;
+        // 22.5ë„ë¥¼ ë”í•´ ê¸°ì¤€ì„ ì„ ë§ì¶”ê³  45ë„ë¡œ ë‚˜ëˆ„ì–´ 0~7 ì‚¬ì´ì˜ ì¸ë±ìŠ¤ ë„ì¶œ
+        int index = Mathf.FloorToInt((angle + 22.5f) / 45f) % 8;
+        
+        return muzzleOffsets[index];
     }
+
     private bool IsInAttackState()
     {
         return anim.GetCurrentAnimatorStateInfo(0).IsTag("Attack");
