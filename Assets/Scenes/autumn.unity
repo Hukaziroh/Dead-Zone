@@ -33496,8 +33496,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainMixer: {fileID: 24100000, guid: d6438bbb60c3f4048bcfb57c32814f60, type: 2}
-  defaultWindowWidth: 1280
-  defaultWindowHeight: 720
 --- !u!4 &1073566328
 Transform:
   m_ObjectHideFlags: 0
@@ -37338,6 +37336,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2130752420}
+    - target: {fileID: 8714626620190207769, guid: 12bfaae3a5c51644493ae68b20ccf939, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -16.606323
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
