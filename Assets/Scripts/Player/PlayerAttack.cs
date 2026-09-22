@@ -95,8 +95,7 @@ public class PlayerAttack : MonoBehaviour
             if (bulletScript != null)
             {
                 bulletScript.damage = currentWeapon.damage;
-                bulletScript.lifetime = currentWeapon.bulletLifetime;
-                bulletScript.Init(fireDirection, currentWeapon.penetrationCount);
+                bulletScript.Init(fireDirection, currentWeapon.penetrationCount, currentWeapon.bulletLifetime);
             }
         }
     }
