@@ -16,8 +16,7 @@
 
 ## 주요 게임플레이
 | 몬스터 웨이브 방어 | 보스전 |
-|:---:|:---:|
-| ![Gameplay](https://via.placeholder.com/400x250?text=Gameplay+GIF+Here) | ![Boss](https://via.placeholder.com/400x250?text=Boss+Fight+GIF+Here) |
+Youtube : https://youtu.be/VTCCBFaYVKY
 
 <br>
 
